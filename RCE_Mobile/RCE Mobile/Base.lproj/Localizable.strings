@@ -86,6 +86,7 @@ LABEL_OCCUPATION = "and work as a ";
 LABEL_RETIREMENT = "I plan to stop at ";
 LABEL_OFFICENUMBER = "You can reach my office on ";
 LABEL_EMPLOYMENTSTATUS = "Employment status";
+LABEL_GENDER = "Gender";
 
 
 // TIME
@@ -112,3 +113,5 @@ BUTTON_NEXT = "Next";
 BUTTON_CONTINUE = "Continue";
 BUTTON_VALID = "Valid";
 BUTTON_STATISFIED = "Statisfied ?, Proceed !";
+BUTTON_DONE = "Done";
+BUTTON_CANCEL = "Cancel";

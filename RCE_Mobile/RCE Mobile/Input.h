@@ -15,50 +15,71 @@
 
 // DECLARATION
 
-@interface TextFieldShortPrimary : UITextField<UITextFieldDelegate>
+    // TEXTFIELD
 
-    // FUNCTION
+    @interface TextFieldShortPrimary : UITextField<UITextFieldDelegate>
 
-    - (void)setupStyle;
+        // FUNCTION
 
-@end
+        - (void)setupStyle;
 
-@interface TextFieldMediumPrimary : UITextField<UITextFieldDelegate>
+    @end
 
-    // FUNCTION
+    @interface TextFieldMediumPrimary : UITextField<UITextFieldDelegate>
 
-    - (void)setupStyle;
+        // FUNCTION
 
-@end
+        - (void)setupStyle;
 
-@interface TextFieldLongPrimary : UITextField<UITextFieldDelegate>
+    @end
 
-    // FUNCTION
+    @interface TextFieldLongPrimary : UITextField<UITextFieldDelegate>
 
-    - (void)setupStyle;
+        // FUNCTION
 
-@end
+        - (void)setupStyle;
 
-@interface TextAreaShortPrimary : UITextField<UITextFieldDelegate>
+    @end
 
-    // FUNCTION
+    @interface TextAreaShortPrimary : UITextField<UITextFieldDelegate>
 
-    - (void)setupStyle;
+        // FUNCTION
 
-@end
+        - (void)setupStyle;
 
-@interface TextAreaMediumPrimary : UITextField<UITextFieldDelegate>
+    @end
 
-    // FUNCTION
+    @interface TextAreaMediumPrimary : UITextField<UITextFieldDelegate>
 
-    - (void)setupStyle;
+        // FUNCTION
 
-@end
+        - (void)setupStyle;
 
-@interface TextAreaLongPrimary : UITextField<UITextFieldDelegate>
+    @end
 
-    // FUNCTION
+    @interface TextAreaLongPrimary : UITextField<UITextFieldDelegate>
 
-    - (void)setupStyle;
+        // FUNCTION
 
-@end
+        - (void)setupStyle;
+
+    @end
+
+
+    // SEGMENTED CONTROL
+
+    @interface SegmentedControlPrimary : UISegmentedControl
+
+        // FUNCTION
+
+        - (void)setupStyle;
+
+    @end
+
+    @interface SegmentedControlPrimaryDisabled : UISegmentedControl
+
+        // FUNCTION
+
+        - (void)setupStyle;
+
+    @end

@@ -36,11 +36,11 @@
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Bs-6U-0ZE">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <subviews>
-                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ffR-A7-E1h" customClass="StackViewPageContainer">
-                            <rect key="frame" x="30" y="30" width="672" height="608"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ffR-A7-E1h" customClass="StackViewPageContainer">
+                            <rect key="frame" x="30" y="30" width="672" height="1114"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="oXq-4a-tCb" customClass="StackViewPageItem">
-                                    <rect key="frame" x="0.0" y="0.0" width="672" height="416"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="oXq-4a-tCb" customClass="StackViewPageItem">
+                                    <rect key="frame" x="0.0" y="0.0" width="672" height="742"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fQv-Tk-pTx" customClass="StackViewGuideDetailContainer">
                                             <rect key="frame" x="0.0" y="0.0" width="36" height="416"/>
@@ -63,8 +63,8 @@
                                                 </view>
                                             </subviews>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="vdo-th-ZMd" customClass="StackViewPaperContainer">
-                                            <rect key="frame" x="56" y="0.0" width="616" height="383"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="vdo-th-ZMd" customClass="StackViewPaperContainer">
+                                            <rect key="frame" x="56" y="0.0" width="616" height="742"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y4d-XV-fQx" customClass="ImageViewPaperHornOnGoing">
                                                     <rect key="frame" x="0.0" y="0.0" width="36" height="36"/>
@@ -73,8 +73,8 @@
                                                         <constraint firstAttribute="width" constant="36" id="BnJ-tz-gz6"/>
                                                     </constraints>
                                                 </imageView>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ASl-KM-AJ0" customClass="ViewPaperOnGoing">
-                                                    <rect key="frame" x="36" y="0.0" width="580" height="383"/>
+                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ASl-KM-AJ0" customClass="ViewPaperOnGoing">
+                                                    <rect key="frame" x="36" y="0.0" width="580" height="742"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7X-fN-x00" customClass="LabelTitleOnGoing">
                                                             <rect key="frame" x="30" y="20" width="520" height="21"/>
@@ -82,8 +82,8 @@
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yj0-33-uru" customClass="StackViewPaper">
-                                                            <rect key="frame" x="30" y="61" width="520" height="262"/>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yj0-33-uru" customClass="StackViewPaper">
+                                                            <rect key="frame" x="30" y="61" width="520" height="622"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a9e-cn-PKp" customClass="StackViewPaperItem">
                                                                     <rect key="frame" x="0.0" y="0.0" width="109" height="30"/>
@@ -120,49 +120,49 @@
                                                                         <action selector="sliderAmount:" destination="-1" eventType="valueChanged" id="6gg-FF-0GU"/>
                                                                     </connections>
                                                                 </slider>
-                                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YV2-bI-CaN">
-                                                                    <rect key="frame" x="0.0" y="100" width="400" height="21"/>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YV2-bI-CaN">
+                                                                    <rect key="frame" x="0.0" y="100" width="400" height="381"/>
                                                                     <subviews>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pL1-pI-xLx" customClass="LabelSliderStep">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="67" height="21"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pL1-pI-xLx" customClass="LabelSliderStep">
+                                                                            <rect key="frame" x="0.0" y="181" width="67" height="21"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibp-I8-PFB" customClass="LabelSliderStep">
-                                                                            <rect key="frame" x="67" y="0.0" width="66" height="21"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibp-I8-PFB" customClass="LabelSliderStep">
+                                                                            <rect key="frame" x="67" y="181" width="67" height="21"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWw-8k-biD" customClass="LabelSliderStep">
-                                                                            <rect key="frame" x="133" y="0.0" width="67" height="21"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="3000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWw-8k-biD" customClass="LabelSliderStep">
+                                                                            <rect key="frame" x="134" y="181" width="67" height="21"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7jj-hv-pm2" customClass="LabelSliderStep">
-                                                                            <rect key="frame" x="200" y="0.0" width="67" height="21"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="4000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7jj-hv-pm2" customClass="LabelSliderStep">
+                                                                            <rect key="frame" x="200" y="181" width="67" height="21"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TvC-km-44q" customClass="LabelSliderStep">
-                                                                            <rect key="frame" x="267" y="0.0" width="66" height="21"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="5000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TvC-km-44q" customClass="LabelSliderStep">
+                                                                            <rect key="frame" x="267" y="181" width="67" height="21"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZF-o4-Edd" customClass="LabelSliderStep">
-                                                                            <rect key="frame" x="333" y="0.0" width="67" height="21"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="6000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZF-o4-Edd" customClass="LabelSliderStep">
+                                                                            <rect key="frame" x="334" y="181" width="67" height="21"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
                                                                 </stackView>
-                                                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Omr-Jv-evi" customClass="StackViewPaperItem">
-                                                                    <rect key="frame" x="0.0" y="141" width="109" height="30"/>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Omr-Jv-evi" customClass="StackViewPaperItem">
+                                                                    <rect key="frame" x="0.0" y="501" width="109" height="30"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vb1-G3-LdM" customClass="LabelFieldOnGoing">
                                                                             <rect key="frame" x="0.0" y="0.0" width="42" height="30"/>
@@ -186,8 +186,8 @@
                                                                         </label>
                                                                     </subviews>
                                                                 </stackView>
-                                                                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="6" minValue="0.0" maxValue="12" translatesAutoresizingMaskIntoConstraints="NO" id="dpg-Ja-SdE">
-                                                                    <rect key="frame" x="-2" y="191" width="304" height="31"/>
+                                                                <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="6" minValue="0.0" maxValue="12" translatesAutoresizingMaskIntoConstraints="NO" id="dpg-Ja-SdE">
+                                                                    <rect key="frame" x="-2" y="551" width="304" height="31"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="30" id="1W9-ZA-a3q"/>
                                                                         <constraint firstAttribute="width" constant="300" id="WwM-RO-fin"/>
@@ -199,34 +199,34 @@
                                                                         <action selector="sliderDuration:" destination="-1" eventType="valueChanged" id="ArK-z0-ohJ"/>
                                                                     </connections>
                                                                 </slider>
-                                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vHv-So-YmH">
-                                                                    <rect key="frame" x="0.0" y="241" width="300" height="21"/>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vHv-So-YmH">
+                                                                    <rect key="frame" x="0.0" y="601" width="300" height="21"/>
                                                                     <subviews>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="foX-I2-tDB" customClass="LabelSliderStep">
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="foX-I2-tDB" customClass="LabelSliderStep">
                                                                             <rect key="frame" x="0.0" y="0.0" width="60" height="21"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JmM-Ak-3a4" customClass="LabelSliderStep">
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JmM-Ak-3a4" customClass="LabelSliderStep">
                                                                             <rect key="frame" x="60" y="0.0" width="60" height="21"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXW-lD-pmO" customClass="LabelSliderStep">
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXW-lD-pmO" customClass="LabelSliderStep">
                                                                             <rect key="frame" x="120" y="0.0" width="60" height="21"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HlO-tr-Lbp" customClass="LabelSliderStep">
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="9" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HlO-tr-Lbp" customClass="LabelSliderStep">
                                                                             <rect key="frame" x="180" y="0.0" width="60" height="21"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKE-Zf-f50" customClass="LabelSliderStep">
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKE-Zf-f50" customClass="LabelSliderStep">
                                                                             <rect key="frame" x="240" y="0.0" width="60" height="21"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -240,8 +240,8 @@
                                                                 <constraint firstItem="vHv-So-YmH" firstAttribute="width" secondItem="dpg-Ja-SdE" secondAttribute="width" id="T63-3Z-Zuo"/>
                                                             </constraints>
                                                         </stackView>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04E-jH-ad0" customClass="ButtonPaperOnGoing">
-                                                            <rect key="frame" x="0.0" y="353" width="580" height="30"/>
+                                                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04E-jH-ad0" customClass="ButtonPaperOnGoing">
+                                                            <rect key="frame" x="0.0" y="712" width="580" height="30"/>
                                                             <state key="normal" title="Button"/>
                                                         </button>
                                                     </subviews>
@@ -264,8 +264,8 @@
                                         </stackView>
                                     </subviews>
                                 </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="tbR-eq-TAu" customClass="StackViewPageItem">
-                                    <rect key="frame" x="0.0" y="416" width="672" height="192"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="tbR-eq-TAu" customClass="StackViewPageItem">
+                                    <rect key="frame" x="0.0" y="742" width="672" height="372"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qgh-uy-hKd" customClass="StackViewGuideDetailContainer">
                                             <rect key="frame" x="0.0" y="0.0" width="36" height="36"/>
@@ -280,8 +280,8 @@
                                                 </button>
                                             </subviews>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="XRH-mL-qmV" customClass="StackViewPaperContainer">
-                                            <rect key="frame" x="56" y="0.0" width="616" height="192"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="XRH-mL-qmV" customClass="StackViewPaperContainer">
+                                            <rect key="frame" x="56" y="0.0" width="616" height="372"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oIZ-a0-yMQ" customClass="ImageViewPaperHornDisabled">
                                                     <rect key="frame" x="0.0" y="0.0" width="36" height="36"/>
@@ -290,8 +290,8 @@
                                                         <constraint firstAttribute="width" constant="36" id="NFd-q7-cZd"/>
                                                     </constraints>
                                                 </imageView>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e9K-Zm-oAf" customClass="ViewPaperDisabled">
-                                                    <rect key="frame" x="36" y="0.0" width="580" height="192"/>
+                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e9K-Zm-oAf" customClass="ViewPaperDisabled">
+                                                    <rect key="frame" x="36" y="0.0" width="580" height="372"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHS-SK-4uK" customClass="LabelTitleDisabled">
                                                             <rect key="frame" x="30" y="20" width="520" height="21"/>
@@ -299,24 +299,24 @@
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yyp-Kq-Yv4" customClass="StackViewPaper">
-                                                            <rect key="frame" x="30" y="61" width="520" height="71"/>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yyp-Kq-Yv4" customClass="StackViewPaper">
+                                                            <rect key="frame" x="30" y="61" width="520" height="251"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7Q-mH-wSZ" customClass="LabelFieldDisabled">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7Q-mH-wSZ" customClass="LabelFieldDisabled">
                                                                     <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zLd-0i-VMh" customClass="TextAreaMediumPrimary">
-                                                                    <rect key="frame" x="0.0" y="41" width="25" height="30"/>
+                                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="749" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zLd-0i-VMh" customClass="TextAreaMediumPrimary">
+                                                                    <rect key="frame" x="0.0" y="41" width="25" height="211"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
                                                             </subviews>
                                                         </stackView>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EBx-g3-Cyv" customClass="ButtonPaperDisabled">
-                                                            <rect key="frame" x="0.0" y="162" width="580" height="30"/>
+                                                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EBx-g3-Cyv" customClass="ButtonPaperDisabled">
+                                                            <rect key="frame" x="0.0" y="341" width="580" height="30"/>
                                                             <state key="normal" title="Button"/>
                                                         </button>
                                                     </subviews>

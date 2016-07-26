@@ -712,7 +712,7 @@
         {
             self.axis = UILayoutConstraintAxisVertical;
             self.distribution = UIStackViewDistributionFill;
-            self.alignment = UIStackViewAlignmentLeading;
+            self.alignment = UIStackViewAlignmentFill;
             self.spacing = GENERAL_PADDING_LARGE;
         }
 

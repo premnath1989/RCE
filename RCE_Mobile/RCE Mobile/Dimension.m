@@ -35,7 +35,7 @@
     // INPUT
 
     int const INPUT_WIDTH_PURE = 200;
-    int const INPUT_HEIGHT_PURE = 34;
+    int const INPUT_HEIGHT_PURE = 40 /* 34*/ ;
     int const INPUT_BORDER_WIDTH = 1;
 
     int const TEXTFIELD_WIDTH_SHORT = INPUT_WIDTH_PURE / 2;

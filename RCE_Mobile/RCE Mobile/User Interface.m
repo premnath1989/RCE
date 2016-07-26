@@ -99,4 +99,25 @@
         }
     }
 
+    - (NSDate*) formatDateToDate:(NSString *)stringPattern dateRAW : (NSDate *) dateRAW
+    {
+        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+        [dateFormatter setDateFormat:stringPattern];
+        return [NSDate date] ;
+    }
+
+    - (NSString*) formatDateToString:(NSString *)stringPattern dateRAW : (NSDate *) dateRAW
+    {
+        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+        [dateFormatter setDateFormat:stringPattern];
+        return [dateFormatter stringFromDate:dateRAW] ;
+    }
+
+    - (NSDate*) formatStringToDate:(NSString *)stringPattern stringRAW : (NSString *) stringRAW
+    {
+        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+        [dateFormatter setDateFormat:stringPattern];
+        return [dateFormatter dateFromString:stringRAW] ;
+    }
+
 @end

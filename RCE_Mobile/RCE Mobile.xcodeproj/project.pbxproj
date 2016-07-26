@@ -39,6 +39,10 @@
 		0F102ED21D3CEC680001AEC6 /* Navigation View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F102ECE1D3CEC680001AEC6 /* Navigation View.xib */; };
 		0F102ED31D3CEC680001AEC6 /* Personal Information View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F102ECF1D3CEC680001AEC6 /* Personal Information View.xib */; };
 		0F309DBE1D3F2DEA00C151C4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F309DC01D3F2DEA00C151C4 /* Localizable.strings */; };
+		9B28EFEB1D47F0820090D222 /* HelveticaNeue_35_Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B28EFE81D47F0820090D222 /* HelveticaNeue_35_Thin.ttf */; };
+		9B28EFEC1D47F0820090D222 /* HelveticaNeue_45_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B28EFE91D47F0820090D222 /* HelveticaNeue_45_Light.ttf */; };
+		9B28EFED1D47F0820090D222 /* HelveticaNeue_55_Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B28EFEA1D47F0820090D222 /* HelveticaNeue_55_Roman.ttf */; };
+		9B28F0011D47F44F0090D222 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B28F0001D47F44F0090D222 /* DatePickerDialog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +123,11 @@
 		0F309DBD1D3F2DDE00C151C4 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/Main.strings; sourceTree = "<group>"; };
 		0F309DBF1D3F2DEA00C151C4 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0F309DC21D3F2DFC00C151C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9B28EFE81D47F0820090D222 /* HelveticaNeue_35_Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue_35_Thin.ttf; sourceTree = "<group>"; };
+		9B28EFE91D47F0820090D222 /* HelveticaNeue_45_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue_45_Light.ttf; sourceTree = "<group>"; };
+		9B28EFEA1D47F0820090D222 /* HelveticaNeue_55_Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue_55_Roman.ttf; sourceTree = "<group>"; };
+		9B28EFFF1D47F44F0090D222 /* RCE Mobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCE Mobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B28F0001D47F44F0090D222 /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,11 +180,12 @@
 			children = (
 				0F102E0E1D3C81860001AEC6 /* AppDelegate.h */,
 				0F102E0F1D3C81860001AEC6 /* AppDelegate.m */,
-				0F102E1A1D3C81860001AEC6 /* Assets.xcassets */,
 				0F102E981D3CE8260001AEC6 /* Controller */,
 				0F102E971D3CE8200001AEC6 /* View */,
 				0F102E1F1D3C81860001AEC6 /* Info.plist */,
 				0F102E171D3C81860001AEC6 /* RCE_Mobile.xcdatamodeld */,
+				9B28F0061D4805C60090D222 /* Asset */,
+				9B28F0051D4805B10090D222 /* Library */,
 				0F102E921D3CE7C90001AEC6 /* Function */,
 				0F102E901D3CE7B00001AEC6 /* Variable */,
 				0F102E931D3CE7DB0001AEC6 /* Style */,
@@ -321,6 +331,34 @@
 			name = Include;
 			sourceTree = "<group>";
 		};
+		9B28EFFB1D47F1630090D222 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9B28EFE81D47F0820090D222 /* HelveticaNeue_35_Thin.ttf */,
+				9B28EFE91D47F0820090D222 /* HelveticaNeue_45_Light.ttf */,
+				9B28EFEA1D47F0820090D222 /* HelveticaNeue_55_Roman.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		9B28F0051D4805B10090D222 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				9B28F0001D47F44F0090D222 /* DatePickerDialog.swift */,
+				9B28EFFF1D47F44F0090D222 /* RCE Mobile-Bridging-Header.h */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		9B28F0061D4805C60090D222 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				0F102E1A1D3C81860001AEC6 /* Assets.xcassets */,
+				9B28EFFB1D47F1630090D222 /* Fonts */,
+			);
+			name = Asset;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -432,7 +470,10 @@
 				0F102ED11D3CEC680001AEC6 /* Loan Calculation View.xib in Resources */,
 				0F102ED31D3CEC680001AEC6 /* Personal Information View.xib in Resources */,
 				0F309DBE1D3F2DEA00C151C4 /* Localizable.strings in Resources */,
+				9B28EFED1D47F0820090D222 /* HelveticaNeue_55_Roman.ttf in Resources */,
 				0F102E1B1D3C81860001AEC6 /* Assets.xcassets in Resources */,
+				9B28EFEC1D47F0820090D222 /* HelveticaNeue_45_Light.ttf in Resources */,
+				9B28EFEB1D47F0820090D222 /* HelveticaNeue_35_Thin.ttf in Resources */,
 				0F102E161D3C81860001AEC6 /* Main.storyboard in Resources */,
 				0F102ED21D3CEC680001AEC6 /* Navigation View.xib in Resources */,
 				0F102ED01D3CEC680001AEC6 /* Guide Header View.xib in Resources */,
@@ -475,6 +516,7 @@
 				0F102E581D3C85030001AEC6 /* Label.m in Sources */,
 				0F102E561D3C85030001AEC6 /* Button.m in Sources */,
 				0F102EA61D3CEA840001AEC6 /* Navigation Controller.m in Sources */,
+				9B28F0011D47F44F0090D222 /* DatePickerDialog.swift in Sources */,
 				0F102E861D3C86060001AEC6 /* Theme.m in Sources */,
 				0F102EA71D3CEA840001AEC6 /* Personal Information Controller.m in Sources */,
 				0F102E101D3C81860001AEC6 /* AppDelegate.m in Sources */,
@@ -634,13 +676,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "RCE Mobile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "my.com.infoconnect.rce.rcemobile.RCE-Mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RCE Mobile/RCE Mobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -648,13 +694,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "RCE Mobile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "my.com.infoconnect.rce.rcemobile.RCE-Mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RCE Mobile/RCE Mobile-Bridging-Header.h";
 			};
 			name = Release;
 		};

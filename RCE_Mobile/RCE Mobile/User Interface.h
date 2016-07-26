@@ -41,4 +41,10 @@
 
     - (void) resetTextField : (NSMutableArray*) arrayTextField;
 
+    - (NSDate*) formatDateToDate : (NSString*) stringPattern dateRAW : (NSDate*) dateRAW;
+
+    - (NSString*) formatDateToString : (NSString*) stringPattern dateRAW : (NSDate*) dateRAW;
+
+    - (NSDate*) formatStringToDate : (NSString*) stringPattern stringRAW : (NSString*) stringRAW;
+
 @end
