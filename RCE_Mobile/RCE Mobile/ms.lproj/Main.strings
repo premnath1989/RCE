@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "B0a-E8-ECw"; */
+"B0a-E8-ECw.text" = "Label";
+
+/* Class = "UISegmentedControl"; RMK-xA-RGO.segmentTitles[0] = "Eng"; ObjectID = "RMK-xA-RGO"; */
+"RMK-xA-RGO.segmentTitles[0]" = "Eng";
+
+/* Class = "UISegmentedControl"; RMK-xA-RGO.segmentTitles[1] = "Mal"; ObjectID = "RMK-xA-RGO"; */
+"RMK-xA-RGO.segmentTitles[1]" = "Mal";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "T1F-j3-KYk"; */
+"T1F-j3-KYk.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "stO-tQ-2p9"; */
+"stO-tQ-2p9.text" = "Label";

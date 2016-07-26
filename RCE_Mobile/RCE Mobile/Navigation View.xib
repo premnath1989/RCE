@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NavigationController">
+            <connections>
+                <outlet property="buttonCalendar" destination="yIL-Vz-hv4" id="MGj-x0-Ocd"/>
+                <outlet property="buttonExpand" destination="8SF-eo-pYw" id="XIf-Y4-3U2"/>
+                <outlet property="buttonFinancing" destination="48q-KQ-9Eb" id="Gc7-Mb-af2"/>
+                <outlet property="buttonLogOut" destination="X9a-ic-gq6" id="LNQ-lQ-QGf"/>
+                <outlet property="buttonMail" destination="d8b-wS-Hq4" id="awP-Ab-pEO"/>
+                <outlet property="buttonNewCashFinancingI" destination="ctC-oV-9G5" id="iVW-Q6-qxN"/>
+                <outlet property="buttonNote" destination="4zs-J8-rgc" id="8nf-5H-Db9"/>
+                <outlet property="buttonProfile" destination="mE4-AY-LIT" id="DWm-zj-Evr"/>
+                <outlet property="buttonSetting" destination="X9D-Qm-n64" id="RxM-iD-Fd2"/>
+                <outlet property="imageViewProfile" destination="PTe-qd-41x" id="Ygr-9x-er3"/>
+                <outlet property="labelCalendar" destination="kRT-MU-FSP" id="xLK-81-dVK"/>
+                <outlet property="labelExistingCashFinancingI" destination="xxd-mv-AL3" id="nWK-MN-dUc"/>
+                <outlet property="labelExistingPlusFinancingI" destination="f4W-Rk-y6V" id="1WF-Qx-f5l"/>
+                <outlet property="labelFinancing" destination="C68-Zh-ukX" id="wIl-01-vdr"/>
+                <outlet property="labelMail" destination="KbN-Ic-9iu" id="vyG-0J-2l7"/>
+                <outlet property="labelName" destination="x3Y-8D-XNv" id="zeF-Q5-9ML"/>
+                <outlet property="labelNewCashFinancingI" destination="ZCn-nM-ov4" id="wHV-op-7H9"/>
+                <outlet property="labelNewPlusFinancingI" destination="m4q-Yq-fXx" id="awp-AR-eVe"/>
+                <outlet property="labelNote" destination="jL1-xF-5C7" id="wXa-2b-OIm"/>
+                <outlet property="labelPosition" destination="r7b-41-aSk" id="oJs-qZ-Ug2"/>
+                <outlet property="stackViewFinancing" destination="o4f-Z8-G70" id="nhP-wt-NsA"/>
+                <outlet property="view" destination="iN0-l3-epB" id="DlS-XN-oaR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ViewNavigation">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oS1-Fb-wQU" customClass="ViewNavigationProfileCircleOutside">
+                    <rect key="frame" x="246" y="40" width="108" height="108"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Photo Profile" translatesAutoresizingMaskIntoConstraints="NO" id="PTe-qd-41x" customClass="ImageViewNavigationProfile">
+                            <rect key="frame" x="6" y="6" width="96" height="96"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="96" id="Ylv-Bq-5Lx"/>
+                                <constraint firstAttribute="width" constant="96" id="pen-3w-Lez"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="108" id="7Gj-hn-kuZ"/>
+                        <constraint firstItem="PTe-qd-41x" firstAttribute="centerY" secondItem="oS1-Fb-wQU" secondAttribute="centerY" id="cNU-MY-jfz"/>
+                        <constraint firstItem="PTe-qd-41x" firstAttribute="centerX" secondItem="oS1-Fb-wQU" secondAttribute="centerX" id="n76-Dc-EKR"/>
+                        <constraint firstAttribute="width" constant="108" id="qgZ-6A-wnp"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="W6r-qj-Hi8">
+                    <rect key="frame" x="279" y="158" width="42" height="42"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3Y-8D-XNv" customClass="LabelNavigationName">
+                            <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7b-41-aSk" customClass="LabelNavigationPosition">
+                            <rect key="frame" x="0.0" y="21" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kzP-bk-etz">
+                    <rect key="frame" x="173" y="220" width="254" height="24"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mE4-AY-LIT" customClass="ButtonProfile">
+                            <rect key="frame" x="0.0" y="0.0" width="78" height="24"/>
+                            <state key="normal" title="Button" image="Icon Profile"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9D-Qm-n64" customClass="ButtonProfile">
+                            <rect key="frame" x="88" y="0.0" width="78" height="24"/>
+                            <state key="normal" title="Button" image="Icon Setting"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9a-ic-gq6" customClass="ButtonProfile">
+                            <rect key="frame" x="176" y="0.0" width="78" height="24"/>
+                            <state key="normal" title="Button" image="Icon Logout"/>
+                        </button>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rod-Ce-B1r" customClass="StackViewNavigationHeader">
+                    <rect key="frame" x="0.0" y="274" width="600" height="336"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g8G-fL-9pa">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="48"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C68-Zh-ukX" customClass="LabelNavigationHeader">
+                                    <rect key="frame" x="20" y="14" width="42" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SF-eo-pYw" customClass="ButtonExpand">
+                                    <rect key="frame" x="534" y="9" width="46" height="30"/>
+                                    <state key="normal" title="Button"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48q-KQ-9Eb" customClass="ButtonNavigationItem">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="48"/>
+                                    <state key="normal" title="Button"/>
+                                    <connections>
+                                        <action selector="expandFinancing:" destination="-1" eventType="touchUpInside" id="iuS-mB-YrA"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="C68-Zh-ukX" firstAttribute="centerY" secondItem="g8G-fL-9pa" secondAttribute="centerY" id="2U8-jt-lnm"/>
+                                <constraint firstAttribute="trailing" secondItem="8SF-eo-pYw" secondAttribute="trailing" constant="20" id="FEj-IK-3fP"/>
+                                <constraint firstAttribute="bottom" secondItem="48q-KQ-9Eb" secondAttribute="bottom" id="FPI-3H-uts"/>
+                                <constraint firstItem="C68-Zh-ukX" firstAttribute="leading" secondItem="g8G-fL-9pa" secondAttribute="leading" constant="20" id="Nb0-ma-Urw"/>
+                                <constraint firstAttribute="height" constant="48" id="Tdu-YO-zRl"/>
+                                <constraint firstItem="8SF-eo-pYw" firstAttribute="centerY" secondItem="g8G-fL-9pa" secondAttribute="centerY" id="gjo-c7-Gun"/>
+                                <constraint firstAttribute="trailing" secondItem="48q-KQ-9Eb" secondAttribute="trailing" id="mUp-9S-C6k"/>
+                                <constraint firstItem="48q-KQ-9Eb" firstAttribute="top" secondItem="g8G-fL-9pa" secondAttribute="top" id="vf6-IM-fuj"/>
+                                <constraint firstItem="48q-KQ-9Eb" firstAttribute="leading" secondItem="g8G-fL-9pa" secondAttribute="leading" id="zpr-mT-8sN"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="o4f-Z8-G70" customClass="StackViewNavigationItem">
+                            <rect key="frame" x="0.0" y="48" width="600" height="144"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cCH-Mn-XvB" customClass="ViewNavigationItem">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="36"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZCn-nM-ov4" customClass="LabelNavigationDetail">
+                                            <rect key="frame" x="20" y="8" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctC-oV-9G5" customClass="ButtonNavigationItem">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="36"/>
+                                            <state key="normal" title="Button"/>
+                                            <connections>
+                                                <action selector="goToNewCashFinancingI:" destination="-1" eventType="touchUpInside" id="D1V-T1-l4h"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="ZCn-nM-ov4" firstAttribute="leading" secondItem="cCH-Mn-XvB" secondAttribute="leading" constant="20" id="2g7-Lb-kiA"/>
+                                        <constraint firstAttribute="trailing" secondItem="ctC-oV-9G5" secondAttribute="trailing" id="3GL-cI-dN6"/>
+                                        <constraint firstItem="ctC-oV-9G5" firstAttribute="leading" secondItem="cCH-Mn-XvB" secondAttribute="leading" id="4OE-fq-g5p"/>
+                                        <constraint firstItem="ZCn-nM-ov4" firstAttribute="centerY" secondItem="cCH-Mn-XvB" secondAttribute="centerY" id="TfE-Px-apx"/>
+                                        <constraint firstAttribute="height" constant="36" id="dPj-EA-6D8"/>
+                                        <constraint firstItem="ctC-oV-9G5" firstAttribute="top" secondItem="cCH-Mn-XvB" secondAttribute="top" id="eo7-Qb-3Qr"/>
+                                        <constraint firstAttribute="bottom" secondItem="ctC-oV-9G5" secondAttribute="bottom" id="gvl-Bl-gZe"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TG2-LQ-AqK" customClass="ViewNavigationItem">
+                                    <rect key="frame" x="0.0" y="36" width="600" height="36"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xxd-mv-AL3" customClass="LabelNavigationDetail">
+                                            <rect key="frame" x="20" y="8" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="xxd-mv-AL3" firstAttribute="leading" secondItem="TG2-LQ-AqK" secondAttribute="leading" constant="20" id="MWK-M7-cbB"/>
+                                        <constraint firstAttribute="height" constant="36" id="Qfr-ED-QDt"/>
+                                        <constraint firstItem="xxd-mv-AL3" firstAttribute="centerY" secondItem="TG2-LQ-AqK" secondAttribute="centerY" id="Uiu-fD-wVh"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IlK-Rv-FJw" customClass="ViewNavigationItem">
+                                    <rect key="frame" x="0.0" y="72" width="600" height="36"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4q-Yq-fXx" customClass="LabelNavigationDetail">
+                                            <rect key="frame" x="20" y="8" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="m4q-Yq-fXx" firstAttribute="leading" secondItem="IlK-Rv-FJw" secondAttribute="leading" constant="20" id="JFV-MK-WZl"/>
+                                        <constraint firstAttribute="height" constant="36" id="Pg1-kh-PVA"/>
+                                        <constraint firstItem="m4q-Yq-fXx" firstAttribute="centerY" secondItem="IlK-Rv-FJw" secondAttribute="centerY" id="yzZ-me-Vos"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bi5-Sz-o1G" customClass="ViewNavigationItem">
+                                    <rect key="frame" x="0.0" y="108" width="600" height="36"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4W-Rk-y6V" customClass="LabelNavigationDetail">
+                                            <rect key="frame" x="20" y="8" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="f4W-Rk-y6V" firstAttribute="leading" secondItem="bi5-Sz-o1G" secondAttribute="leading" constant="20" id="EOf-Yd-D1o"/>
+                                        <constraint firstAttribute="height" constant="36" id="HaO-8w-2Nh"/>
+                                        <constraint firstItem="f4W-Rk-y6V" firstAttribute="centerY" secondItem="bi5-Sz-o1G" secondAttribute="centerY" id="JjY-pK-PAy"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rz2-fz-SM2">
+                            <rect key="frame" x="0.0" y="192" width="600" height="48"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRT-MU-FSP" customClass="LabelNavigationHeader">
+                                    <rect key="frame" x="20" y="14" width="42" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yIL-Vz-hv4" customClass="ButtonNavigationItem">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="48"/>
+                                    <state key="normal" title="Button"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="yIL-Vz-hv4" firstAttribute="leading" secondItem="Rz2-fz-SM2" secondAttribute="leading" id="7J5-6D-17n"/>
+                                <constraint firstAttribute="trailing" secondItem="yIL-Vz-hv4" secondAttribute="trailing" id="9Dy-qf-u7v"/>
+                                <constraint firstAttribute="bottom" secondItem="yIL-Vz-hv4" secondAttribute="bottom" id="B4m-Yz-eWL"/>
+                                <constraint firstItem="yIL-Vz-hv4" firstAttribute="top" secondItem="Rz2-fz-SM2" secondAttribute="top" id="S1A-8j-W2W"/>
+                                <constraint firstItem="kRT-MU-FSP" firstAttribute="leading" secondItem="Rz2-fz-SM2" secondAttribute="leading" constant="20" id="uGl-t4-jTV"/>
+                                <constraint firstAttribute="height" constant="48" id="xSv-VB-sql"/>
+                                <constraint firstItem="kRT-MU-FSP" firstAttribute="centerY" secondItem="Rz2-fz-SM2" secondAttribute="centerY" id="yqm-xP-ofA"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qZW-oV-vYs">
+                            <rect key="frame" x="0.0" y="240" width="600" height="48"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KbN-Ic-9iu" customClass="LabelNavigationHeader">
+                                    <rect key="frame" x="20" y="14" width="42" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8b-wS-Hq4" customClass="ButtonNavigationItem">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="48"/>
+                                    <state key="normal" title="Button"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="d8b-wS-Hq4" firstAttribute="leading" secondItem="qZW-oV-vYs" secondAttribute="leading" id="14l-8l-0Ii"/>
+                                <constraint firstAttribute="bottom" secondItem="d8b-wS-Hq4" secondAttribute="bottom" id="717-mk-gyQ"/>
+                                <constraint firstItem="KbN-Ic-9iu" firstAttribute="leading" secondItem="qZW-oV-vYs" secondAttribute="leading" constant="20" id="Akn-hn-YcI"/>
+                                <constraint firstItem="d8b-wS-Hq4" firstAttribute="top" secondItem="qZW-oV-vYs" secondAttribute="top" id="GgR-es-03C"/>
+                                <constraint firstItem="KbN-Ic-9iu" firstAttribute="centerY" secondItem="qZW-oV-vYs" secondAttribute="centerY" id="kfb-ib-rWP"/>
+                                <constraint firstAttribute="height" constant="48" id="mBf-Fn-Pab"/>
+                                <constraint firstAttribute="trailing" secondItem="d8b-wS-Hq4" secondAttribute="trailing" id="xyc-oc-gUH"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BNJ-QI-IhB">
+                            <rect key="frame" x="0.0" y="288" width="600" height="48"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jL1-xF-5C7" customClass="LabelNavigationHeader">
+                                    <rect key="frame" x="20" y="14" width="42" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zs-J8-rgc" customClass="ButtonNavigationItem">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="48"/>
+                                    <state key="normal" title="Button"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="4zs-J8-rgc" secondAttribute="bottom" id="0dr-6h-jsZ"/>
+                                <constraint firstItem="4zs-J8-rgc" firstAttribute="top" secondItem="BNJ-QI-IhB" secondAttribute="top" id="Mn5-XP-eWn"/>
+                                <constraint firstItem="jL1-xF-5C7" firstAttribute="leading" secondItem="BNJ-QI-IhB" secondAttribute="leading" constant="20" id="e3O-0l-hqx"/>
+                                <constraint firstItem="jL1-xF-5C7" firstAttribute="centerY" secondItem="BNJ-QI-IhB" secondAttribute="centerY" id="mfJ-of-uLv"/>
+                                <constraint firstAttribute="trailing" secondItem="4zs-J8-rgc" secondAttribute="trailing" id="rbN-6K-7Wr"/>
+                                <constraint firstAttribute="height" constant="48" id="saH-Q8-USI"/>
+                                <constraint firstItem="4zs-J8-rgc" firstAttribute="leading" secondItem="BNJ-QI-IhB" secondAttribute="leading" id="y7l-dS-PrV"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="W6r-qj-Hi8" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="3L9-KL-zx9"/>
+                <constraint firstItem="oS1-Fb-wQU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="Rht-wZ-jIH"/>
+                <constraint firstItem="oS1-Fb-wQU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ZsW-Zp-zDR"/>
+                <constraint firstItem="kzP-bk-etz" firstAttribute="top" secondItem="W6r-qj-Hi8" secondAttribute="bottom" constant="20" id="c6t-94-nxH"/>
+                <constraint firstItem="W6r-qj-Hi8" firstAttribute="top" secondItem="oS1-Fb-wQU" secondAttribute="bottom" constant="10" id="j7q-3l-mpW"/>
+                <constraint firstAttribute="trailing" secondItem="rod-Ce-B1r" secondAttribute="trailing" id="m2K-En-qdt"/>
+                <constraint firstItem="rod-Ce-B1r" firstAttribute="top" secondItem="kzP-bk-etz" secondAttribute="bottom" constant="30" id="tZE-sf-xE6"/>
+                <constraint firstItem="kzP-bk-etz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="vcE-78-obZ"/>
+                <constraint firstItem="rod-Ce-B1r" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xEA-pa-gK2"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Icon Logout" width="24" height="24"/>
+        <image name="Icon Profile" width="24" height="24"/>
+        <image name="Icon Setting" width="24" height="24"/>
+        <image name="Photo Profile" width="96" height="96"/>
+    </resources>
+</document>

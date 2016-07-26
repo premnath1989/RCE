@@ -1,0 +1,113 @@
+/* 
+  Localizable.strings
+  RCE Mobile
+
+  Created by Ibrahim on 18/07/2016.
+  Copyright © 2016 Ibrahim. All rights reserved.
+*/
+
+
+// NAVIGATION
+
+NAVIGATION_FINANCING = "Financing";
+NAVIGATION_CASHFINANCINGI_NEW = "New Cash Financing - I";
+NAVIGATION_CASHFINANCINGI_EXISTING = "Existing Cash Financing - I List";
+NAVIGATION_PLUSFINANCINGI_NEW = "New Plus Financing - I";
+NAVIGATION_PLUSFINANCINGI_EXISTING = "Existing Plus Financing - I List";
+NAVIGATION_CALENDAR = "Calendar";
+NAVIGATION_NOTE = "Note";
+NAVIGATION_MAIL = "Mail";
+
+
+// STEP
+
+GUIDE_STEP_1 = "1";
+GUIDE_STEP_2 = "2";
+GUIDE_STEP_3 = "3";
+GUIDE_STEP_4 = "4";
+
+GUIDEHEADER_LOANOBJECTIVES_TITLE = "Loan Objectives";
+GUIDEHEADER_LOANOBJECTIVES_DESCRIPTION = "How much to loan ?, how long ?, why you need the loan ?.";
+GUIDEHEADER_STATUS_INFIX = " out of ";
+GUIDEHEADER_STATUS_SUFFIX = " steps";
+
+GUIDEHEADER_LOANCALCULATION_STEP = "2";
+GUIDEHEADER_LOANCALCULATION_TITLE = "Loan Calculation";
+GUIDEHEADER_LOANCALCULATION_DESCRIPTION = "Congratulations !, this is how your loan gonna be.";
+
+GUIDEHEADER_PERSONALINFORMATIONS_STEP = "3";
+GUIDEHEADER_PERSONALINFORMATION_TITLE = "Personal Information";
+GUIDEHEADER_PERSONALINFORMATION_DESCRIPTION = "Tell us about yourself, we love to know more about you.";
+
+GUIDEHEADER_LOANCONFIRMATION_STEP = "4";
+GUIDEHEADER_LOANCONFIRMATION_TITLE = "Loan Confirmation";
+GUIDEHEADER_LOANCONFIRMATION_DESCRIPTION = "One step away from way out !.";
+
+
+// SECTION
+
+SECTION_LOANINFORMATION = "Loan Information";
+SECTION_LOANBACKGROUND = "Background";
+SECTION_MYINFORMATION = "My Information";
+SECTION_EMPLOYEERSINFORMATION = "Employeer's Information";
+SECTION_EXPENDITURE = "My Expenditure";
+SECTION_INCOME = "My Income";
+SECTION_LOANPREVIEW = "Loan Preview";
+
+
+// LABEL
+
+LABEL_FOR = "for ";
+LABEL_BORROW_PREFIX = "I need to borrow";
+LABEL_LOANREASON = "I need this loan to help me";
+LABEL_INCOME_PREFIX = "I earn ";
+LABEL_FIXEDALLOWANCE_PREFIX = "with total fixed allowance as ";
+LABEL_DEDUCTION_PREFIX = "I spend";
+LABEL_DEDUCTION_SUFFIX = "for monthly deduction";
+LABEL_OVERLAPING_PREFIX = "with total overlaping";
+LABEL_CONGRATULATIONS = "Congratulations !, this is how your loan gonna be ...";
+LABEL_LOANAMOUNT_TITLE = "Loan Amount";
+LABEL_LOANAMOUNT_DESCRIPTION = "This is the amount of money you will get";
+LABEL_INTERESTRATE_TITLE = "Interest Rate";
+LABEL_INTERESTRATE_DESCRIPTION = "this is the interest rate of your loan";
+LABEL_REPAYMENT_TITLE = "Total Repayment";
+LABEL_REPAYMENT_DESCRIPTION = "this is the amount of money you will return to us";
+LABEL_MYFULLNAME = "My full name is ";
+LABEL_POLICENUMBER = "New IC / Police / Army number ";
+LABEL_BIRTHDAY = "I was born on ";
+LABEL_RACE = "Race";
+LABEL_MARITALSTATUS = "Marital status";
+LABEL_TELEPHONENUMBER = "You can reach my by phone on ";
+LABEL_EMAIL = "or send me something at ";
+LABEL_EMPLOYERSNAME = "My boss name is ";
+LABEL_SECTOR = "sector of employment";
+LABEL_JOINED_ON = "I'm working here since ";
+LABEL_OCCUPATION = "and work as a ";
+LABEL_RETIREMENT = "I plan to stop at ";
+LABEL_OFFICENUMBER = "You can reach my office on ";
+
+
+// TIME
+
+TIME_WEEK = "week / weeks";
+TIME_MONTHS = "month / months";
+TIME_YEAR = "year / years";
+FREQUENCY_WEEK = " per week";
+FREQUENCY_MONTH = " per month";
+FREQUENCY_YEAR = " per year";
+
+
+// CURRENCY
+
+CURRENCY_RM = "RM";
+CURRENCY_IDR = "IDR";
+CURRENCY_USD = "USD";
+CURRENCY_SGD = "SGD";
+
+
+// BUTTON
+
+BUTTON_NEXT = "Next";
+BUTTON_CONTINUE = "Continue";
+BUTTON_VALID = "Valid";
+BUTTON_STATISFIED = "Statisfied ?, Proceed !";

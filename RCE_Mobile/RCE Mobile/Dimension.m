@@ -1,0 +1,98 @@
+//
+//  Rule.m
+//  Practice
+//
+//  Created by Ibrahim on 20/05/2016.
+//  Copyright © 2016 Ibrahim. All rights reserved.
+//
+
+
+// IMPORT
+
+#import "Dimension.h"
+
+
+// IMPLEMENTATION
+
+    // GENERAL
+
+    int const ICON_SIZE_SMALL = 36;
+    int const ICON_SIZE_MEDIUM = 48;
+    int const ICON_SIZE_LARGE = ICON_SIZE_MEDIUM * 1.5;
+    int const ICON_SIZE_XLARGE = ICON_SIZE_MEDIUM  * 2;
+    int const ICON_SIZE_XXLARGE = ICON_SIZE_MEDIUM * 3;
+    int const ICON_SIZE_XXXLARGE = ICON_SIZE_MEDIUM * 4;
+
+    int const GENERAL_MARGIN_SMALL = 10;
+    int const GENERAL_MARGIN_MEDIUM = GENERAL_MARGIN_SMALL * 2;
+    int const GENERAL_MARGIN_LARGE = GENERAL_MARGIN_SMALL * 3;
+
+    int const GENERAL_PADDING_SMALL = 5;
+    int const GENERAL_PADDING_MEDIUM = GENERAL_PADDING_SMALL * 2;
+    int const GENERAL_PADDING_LARGE = GENERAL_PADDING_SMALL * 4;
+
+
+    // INPUT
+
+    int const INPUT_WIDTH_PURE = 200;
+    int const INPUT_HEIGHT_PURE = 34;
+    int const INPUT_BORDER_WIDTH = 1;
+
+    int const TEXTFIELD_WIDTH_SHORT = INPUT_WIDTH_PURE / 2;
+    int const TEXTFIELD_WIDTH_MEDIUM = INPUT_WIDTH_PURE;
+    int const TEXTFIELD_WIDTH_LONG = INPUT_WIDTH_PURE * 1.5;
+    int const TEXTFIELD_HEIGHT_SINGLE = INPUT_HEIGHT_PURE;
+    int const TEXTFIELD_HEIGHT_MULTI = INPUT_HEIGHT_PURE * 3;
+    int const TEXTFIELD_BORDER_WIDTH = INPUT_BORDER_WIDTH;
+
+
+    // LAYOUT
+
+    int const GENERAL_BORDERWIDTH_THICK = 2;
+    int const GENERAL_BORDERWIDTH_MEDIUM = 1;
+    int const GENERAL_BORDERWIDTH_THIN = 0.5;
+
+    int const NAVIGATION_CONTAINER_WIDTH = 240;
+
+    int const HEADER_CONTAINER_HEIGHT = 80;
+
+    int const GUIDEHEADER_CONTAINER_WIDTH = 250;
+    int const GUIDEHEADER_CONTAINER_HEIGHT = 160;
+
+    int const GUIDEHEADER_CIRCLEOUTSIDE_SIZE = 54;
+    int const GUIDEHEADER_CIRCLEINSIDE_SIZE = 45;
+    int const NAVIGATION_CIRCLEPROFILE_SIZE = 108;
+    int const GUIDEDETAIL_CIRCLE_SIZE = 36;
+
+    int const GUIDEDETAIL_TAIL_WIDTH = 2;
+    int const GUIDEHEADER_BAR_HEIGHT = 7;
+    int const NAVIGATION_HEADER_HEIGHT = 48;
+    int const NAVIGATION_DETAIL_HEIGHT = 36;
+    int const GUIDEHEADER_BAR_BORDERRADIUS = 2;
+    int const NAVIGATION_PROFILE_SIZE = 96;
+    int const NAVIGATION_CIRCLEOUTSIDE_SIZE = 108;
+
+
+    // LABEL
+
+    int const FIELD_WIDTH_PURE = 140;
+    int const FIELD_HEIGHT_PURE = 34;
+
+    int const FIELD_WIDTH_SHORT = FIELD_WIDTH_PURE / 2;
+    int const FIELD_WIDTH_MEDIUM = FIELD_WIDTH_PURE;
+    int const FIELD_WIDTH_LONG = FIELD_WIDTH_PURE * 1.5;
+    int const FIELD_HEIGHT_SINGLE = FIELD_HEIGHT_PURE;
+    int const FIELD_HEIGHT_MULTI = FIELD_HEIGHT_PURE * 3;
+
+    int const NOTE_WIDTH_MEDIUM = FIELD_WIDTH_PURE * 6;
+
+    // BUTTON
+
+    int const BUTTON_WIDTH_PURE = INPUT_WIDTH_PURE / 2;
+    int const BUTTON_HEIGHT_PURE = INPUT_HEIGHT_PURE;
+
+    int const BUTTON_CONFIRMSPAJ_HEIGHT = INPUT_HEIGHT_PURE * 1.5;
+
+    // TABLE
+
+    int const TABLE_STACKVIEW_SPACING = 2;
