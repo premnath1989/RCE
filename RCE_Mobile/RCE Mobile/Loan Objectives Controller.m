@@ -36,11 +36,11 @@
         _labelSection1.text = NSLocalizedString(@"SECTION_LOANINFORMATION", nil);
         _labelSection1.textColor = [UIColor blackColor];
         
-        _labelAmountPrefix.text = NSLocalizedString(@"LABEL_BORROW_PREFIX", nil);
+        _labelAmountPrefix.text = NSLocalizedString(@"LABEL_BORROW", nil);
          _labelAmountPrefix.textColor = [UIColor blackColor];
         _labelAmountSuffix.text = NSLocalizedString(@"CURRENCY_RM", nil);
          _labelAmountSuffix.textColor = [UIColor blackColor];
-        _labelDurationPrefix.text = NSLocalizedString(@"LABEL_FOR", nil);
+        _labelDurationPrefix.text = NSLocalizedString(@"LABEL_DURATION", nil);
         _labelDurationPrefix.textColor = [UIColor blackColor];
         _labelDurationSuffix.text = NSLocalizedString(@"TIME_MONTHS", nil);
         _labelDurationSuffix.textColor = [UIColor blackColor];
