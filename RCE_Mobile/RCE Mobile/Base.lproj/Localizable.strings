@@ -87,6 +87,8 @@ LABEL_RETIREMENT = "I plan to stop at ";
 LABEL_OFFICENUMBER = "You can reach my office on ";
 LABEL_EMPLOYMENTSTATUS = "Employment status";
 LABEL_GENDER = "Gender";
+LABEL_BORROW = "How much would you like to borrow ?";
+LABEL_DURATION = "For how long (months) ?";
 
 
 // TIME

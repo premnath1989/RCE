@@ -34,5 +34,3 @@
     NSString *const THEME_FONT_SECONDARY = @"MarkerFelt-Wide"; // Bold
     NSString *const THEME_FONT_TERTIARY = @"MarkerFelt-Thin"; // Italic
     NSString *const THEME_FONT_QUATERNARY = @"MarkerFelt-Thin"; // Bold Italic
-
-

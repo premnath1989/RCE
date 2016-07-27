@@ -646,7 +646,7 @@
 {
     UserInterface *objectUserInterface = [[UserInterface alloc] init];
     
-    [self setTextColor : [objectUserInterface generateUIColor:THEME_COLOR_PRIMARY floatOpacity:1.0]];
+    [self setTextColor : [objectUserInterface generateUIColor:THEME_COLOR_SENARY floatOpacity:1.0]];
     [self setFont : [UIFont fontWithName:THEME_FONT_TERTIARY size:FONTSIZE_POINT_DETAIL]];
     self.textAlignment = NSTextAlignmentCenter;
     self.numberOfLines = 3;
