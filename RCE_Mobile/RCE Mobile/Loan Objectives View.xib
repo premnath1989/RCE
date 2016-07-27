@@ -95,13 +95,13 @@
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
                                                                 <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3000" minValue="0.0" maxValue="6000" translatesAutoresizingMaskIntoConstraints="NO" id="IbL-aU-b6Z">
-                                                                    <rect key="frame" x="-2" y="351" width="106" height="31"/>
+                                                                    <rect key="frame" x="-2" y="351" width="138" height="31"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="30" id="QaD-VH-OsF"/>
                                                                     </constraints>
                                                                     <color key="minimumTrackTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <color key="maximumTrackTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                                    <color key="thumbTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                    <color key="thumbTintColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <connections>
                                                                         <action selector="sliderAmount:" destination="-1" eventType="valueChanged" id="6gg-FF-0GU"/>
                                                                     </connections>
@@ -142,13 +142,13 @@
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
                                                                 <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="6" minValue="0.0" maxValue="12" translatesAutoresizingMaskIntoConstraints="NO" id="dpg-Ja-SdE">
-                                                                    <rect key="frame" x="-2" y="562" width="106" height="31"/>
+                                                                    <rect key="frame" x="-2" y="562" width="138" height="31"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="30" id="1W9-ZA-a3q"/>
                                                                     </constraints>
                                                                     <color key="minimumTrackTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <color key="maximumTrackTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                                    <color key="thumbTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                    <color key="thumbTintColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <connections>
                                                                         <action selector="sliderDuration:" destination="-1" eventType="valueChanged" id="ArK-z0-ohJ"/>
                                                                     </connections>

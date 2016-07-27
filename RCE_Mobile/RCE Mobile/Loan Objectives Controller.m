@@ -10,6 +10,7 @@
 // IMPORT
 
 #import "Loan Objectives Controller.h"
+#import "User Interface.h"
 
 
 // INTERFACE
@@ -78,14 +79,18 @@
 
     - (IBAction)sliderAmount:(id)sender
     {
+        UserInterface *userInterface = [[UserInterface alloc] init];
         [_sliderAmount setValue:((int)((_sliderAmount.value + 500) / 1000) * 1000) animated:NO];
         _textFieldAmount.text = [NSString stringWithFormat:@"%.f", _sliderAmount.value];
+        _textFieldAmount.layer.borderColor = [[userInterface generateUIColor:0x3399FF floatOpacity:1.0] CGColor];
     }
 
     - (IBAction)sliderDuration:(id)sender
     {
+        UserInterface *userInterface = [[UserInterface alloc] init];
         [_sliderDuration setValue:((int)((_sliderDuration.value + 1.5) / 3) * 3) animated:NO];
         _textFieldDuration.text = [NSString stringWithFormat:@"%.f", _sliderDuration.value];
+        _textFieldDuration.layer.borderColor = [[userInterface generateUIColor:0x3399FF floatOpacity:1.0] CGColor];
     }
 
 
