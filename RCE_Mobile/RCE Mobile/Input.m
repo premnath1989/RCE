@@ -95,7 +95,7 @@
             self.layer.cornerRadius = 10;
             self.layer.masksToBounds = YES;
             self.layer.borderColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:0.8].CGColor;
-            self.textColor = [objectUserInterface generateUIColor:THEME_COLOR_PRIMARY floatOpacity:1.0];
+            self.textColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:1.0];
         }
 
     @end
@@ -133,7 +133,7 @@
             self.borderStyle = UITextBorderStyleLine;
             self.layer.borderWidth = INPUT_BORDER_WIDTH;
             self.layer.borderColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:0.8].CGColor;
-            self.textColor = [objectUserInterface generateUIColor:THEME_COLOR_PRIMARY floatOpacity:1.0];
+            self.textColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:1.0];
         }
 
     @end
