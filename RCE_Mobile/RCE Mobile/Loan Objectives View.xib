@@ -95,7 +95,7 @@
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
                                                                 <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3000" minValue="0.0" maxValue="6000" translatesAutoresizingMaskIntoConstraints="NO" id="IbL-aU-b6Z">
-                                                                    <rect key="frame" x="-2" y="351" width="138" height="31"/>
+                                                                    <rect key="frame" x="-2" y="351" width="154" height="31"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="30" id="QaD-VH-OsF"/>
                                                                     </constraints>
@@ -142,7 +142,7 @@
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
                                                                 <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="6" minValue="0.0" maxValue="12" translatesAutoresizingMaskIntoConstraints="NO" id="dpg-Ja-SdE">
-                                                                    <rect key="frame" x="-2" y="562" width="138" height="31"/>
+                                                                    <rect key="frame" x="-2" y="562" width="154" height="31"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="30" id="1W9-ZA-a3q"/>
                                                                     </constraints>

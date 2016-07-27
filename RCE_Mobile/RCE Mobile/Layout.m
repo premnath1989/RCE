@@ -33,7 +33,7 @@
             UserInterface *objectUserInterface = [[UserInterface alloc] init];
             
             [self.heightAnchor constraintEqualToConstant:HEADER_CONTAINER_HEIGHT].active = true;
-            self.backgroundColor = [objectUserInterface generateUIColor:THEME_COLOR_PRIMARY floatOpacity:1.0];
+            self.backgroundColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:1.0];
         }
 
     @end
@@ -810,7 +810,7 @@
         {
             UserInterface *objectUserInterface = [[UserInterface alloc] init];
             
-            self.backgroundColor = [objectUserInterface generateUIColor:0xE4E4E4 floatOpacity:0.4];
+            self.backgroundColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:0.4];
         }
 
         @end

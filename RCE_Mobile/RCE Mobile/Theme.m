@@ -16,11 +16,11 @@
 
     // COLOR
 
-    UInt32 const THEME_COLOR_PRIMARY = 0xffffff; // Dark Turqoise
+    UInt32 const THEME_COLOR_PRIMARY = 0x000000; // Dark Turqoise
     UInt32 const THEME_COLOR_SECONDARY = 0x3c1e50; // Light Turqoise
     UInt32 const THEME_COLOR_TERTIARY = 0xb4b4b4; // Dark Background
     UInt32 const THEME_COLOR_QUATERNARY = 0xf0f0f0; // Light Background
-    UInt32 const THEME_COLOR_QUINARY = 0x000000; // Black
+    UInt32 const THEME_COLOR_QUINARY = 0xffffff; // Black
     UInt32 const THEME_COLOR_BackgroundQuestSet  = 0xF76262; // RedColor //@prem
     UInt32 const THEME_COLOR_SENARY = 0x5a5a5a; // Dark Grey
     UInt32 const THEME_COLOR_SEPTENARY = 0x787878; // Light Grey
