@@ -66,6 +66,17 @@
     @end
 
 
+    // DROPDOWN
+
+    @interface DropDownPrimary : UITextField<UITextFieldDelegate>
+
+        // FUNCTION
+
+        - (void)setupStyle;
+
+    @end
+
+
     // SEGMENTED CONTROL
 
     @interface SegmentedControlPrimary : UISegmentedControl
