@@ -33,7 +33,7 @@
             UserInterface *objectUserInterface = [[UserInterface alloc] init];
             
             [self.heightAnchor constraintEqualToConstant:HEADER_CONTAINER_HEIGHT].active = true;
-            self.backgroundColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:1.0];
+            self.backgroundColor = [objectUserInterface generateUIColor:THEME_COLOR_PRIMARY floatOpacity:1.0];
         }
 
     @end
@@ -810,7 +810,7 @@
         {
             UserInterface *objectUserInterface = [[UserInterface alloc] init];
             
-            self.backgroundColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:0.4];
+            self.backgroundColor = [objectUserInterface generateUIColor:THEME_COLOR_PRIMARY floatOpacity:0.4];
         }
 
         @end
@@ -828,7 +828,7 @@
 
         - (void)setupStyle
         {
-            [self.heightAnchor constraintEqualToConstant:ICON_SIZE_SMALL].active = true;
+            [self.widthAnchor constraintEqualToConstant:ICON_SIZE_SMALL].active = true;
             [self.heightAnchor constraintEqualToConstant:ICON_SIZE_SMALL].active = true;
             [self setImage:[UIImage imageNamed:@"Icon Paper Horn Disabled"]];
             [self setContentMode:UIViewContentModeScaleAspectFill];

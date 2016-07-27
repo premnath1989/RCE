@@ -252,6 +252,7 @@
             {
                 UserInterface *objectUserInterface = [[UserInterface alloc] init];
                 
+                [self.heightAnchor constraintEqualToConstant:ICON_SIZE_SMALL * 2].active = true;
                 [self setTextColor : [objectUserInterface generateUIColor:THEME_COLOR_PRIMARY floatOpacity:1.0]];
                 [self setFont : [UIFont fontWithName:THEME_FONT_SECONDARY size:FONTSIZE_GUIDEHEADER_TITLE]];
                 self.textAlignment = NSTextAlignmentLeft;

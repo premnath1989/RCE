@@ -26,7 +26,7 @@ GUIDE_STEP_2 = "2";
 GUIDE_STEP_3 = "3";
 GUIDE_STEP_4 = "4";
 
-GUIDEHEADER_LOANOBJECTIVES_TITLE = "Loan Objectives";
+GUIDEHEADER_LOANOBJECTIVES_TITLE = "Loan\nObjectives";
 GUIDEHEADER_LOANOBJECTIVES_DESCRIPTION = "How much to loan ?, how long ?, why you need the loan ?.";
 GUIDEHEADER_STATUS_INFIX = " out of ";
 GUIDEHEADER_STATUS_SUFFIX = " steps";
