@@ -42,6 +42,7 @@
         _labelPoliceNumber.text = NSLocalizedString(@"LABEL_POLICENUMBER", nil);
         _labelBirthday.text = NSLocalizedString(@"LABEL_BIRTHDAY", nil);
         // _labelRace.text = NSLocalizedString(@"LABEL_RACE", nil);
+        _labelOccupation.text = NSLocalizedString(@"LABEL_OCCUPATION", nil);
         _labelMaritalStatus.text = NSLocalizedString(@"LABEL_MARITALSTATUS", nil);
         /* _labelTelephoneNumber.text = NSLocalizedString(@"LABEL_TELEPHONENUMBER", nil);
         _labelEmail.text = NSLocalizedString(@"LABEL_EMAIL", nil); */
@@ -53,7 +54,6 @@
         _labelBirthday.textColor = [UIColor blackColor];
         _labelMaritalStatus.textColor = [UIColor blackColor];
         _labelGender.textColor = [UIColor blackColor];
-
         
         
         _labelSection2.text = NSLocalizedString(@"SECTION_EMPLOYEERSINFORMATION", nil);
@@ -62,11 +62,10 @@
         // _labelEmployersFullName.textColor = [UIColor whiteColor];
         _labelSector.text = NSLocalizedString(@"LABEL_SECTOR", nil);
         _labelJoinedOn.text = NSLocalizedString(@"LABEL_JOINED_ON", nil);
-        /* _labelOccupation.text = NSLocalizedString(@"LABEL_OCCUPATION", nil);
-        _labelState.text = NSLocalizedString(@"LABEL_EMPLOYMENTSTATUS", nil);
+        
+        /* _labelState.text = NSLocalizedString(@"LABEL_EMPLOYMENTSTATUS", nil);
         _labelRetirement.text = NSLocalizedString(@"LABEL_RETIREMENT", nil); */
         _labelOfficeNumber.text = NSLocalizedString(@"LABEL_OFFICENUMBER", nil);
-        
         
         
         [_buttonSubmit1 setTitle:NSLocalizedString(@"BUTTON_NEXT", nil) forState:UIControlStateNormal];
@@ -105,6 +104,11 @@
              self.textFieldJoinedOn.text = stringDate;
             // [self.textFieldBirthday resignFirstResponder];
          }];
+    }
+
+    - (IBAction) dropDownOccupation:(id)sender
+    {
+        [self.textFieldOccupation resignFirstResponder];
     }
 
 

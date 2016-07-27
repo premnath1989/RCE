@@ -245,10 +245,10 @@
             self.borderStyle = UITextBorderStyleLine;
             self.layer.borderWidth = INPUT_BORDER_WIDTH;
             self.layer.borderColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:0.8].CGColor;
-            self.textColor = [objectUserInterface generateUIColor:THEME_COLOR_PRIMARY floatOpacity:1.0];
+            self.textColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:1.0];
             
             UIImageView *imageViewRight = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Icon Expand"]];
-            imageViewRight.frame = CGRectMake(0, 0, (ICON_SIZE_MEDIUM / 2) + GENERAL_PADDING_SMALL, ICON_SIZE_MEDIUM / 2);
+            imageViewRight.frame = CGRectMake(0, 0, (ICON_SIZE_MEDIUM / 2) + GENERAL_PADDING_MEDIUM, ICON_SIZE_MEDIUM / 2);
             imageViewRight.contentMode = UIViewContentModeLeft;
             [self setRightViewMode:UITextFieldViewModeAlways];
             [self setRightView:imageViewRight];

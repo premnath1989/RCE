@@ -48,8 +48,8 @@
     @property (nonatomic, weak) IBOutlet UILabel *labelEmployersFullName;
     @property (nonatomic, weak) IBOutlet UILabel *labelSector;
     @property (nonatomic, weak) IBOutlet UILabel *labelJoinedOn;
-    /* @property (nonatomic, weak) IBOutlet UILabel *labelOccupation;
-    @property (nonatomic, weak) IBOutlet UILabel *labelState;
+    @property (nonatomic, weak) IBOutlet UILabel *labelOccupation;
+    /* @property (nonatomic, weak) IBOutlet UILabel *labelState;
     @property (nonatomic, weak) IBOutlet UILabel *labelRetirement; */
     @property (nonatomic, weak) IBOutlet UILabel *labelOfficeNumber;
 
@@ -67,8 +67,8 @@
     @property (nonatomic, weak) IBOutlet UITextField *textFieldEmployersFullName;
     // @property (nonatomic, weak) IBOutlet UITextField *textFieldSector;
     @property (nonatomic, weak) IBOutlet UITextField *textFieldJoinedOn;
-    /* @property (nonatomic, weak) IBOutlet UITextField *textFieldOccupation;
-    @property (nonatomic, weak) IBOutlet UITextField *textFieldStatus; */
+    @property (nonatomic, weak) IBOutlet UITextField *textFieldOccupation;
+    // @property (nonatomic, weak) IBOutlet UITextField *textFieldStatus;
     @property (nonatomic, weak) IBOutlet UITextField *textFieldOfficeNumber;
 
 

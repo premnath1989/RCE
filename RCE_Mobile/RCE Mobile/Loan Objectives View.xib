@@ -95,7 +95,7 @@
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
                                                                 <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3000" minValue="0.0" maxValue="6000" translatesAutoresizingMaskIntoConstraints="NO" id="IbL-aU-b6Z">
-                                                                    <rect key="frame" x="-2" y="351" width="158" height="31"/>
+                                                                    <rect key="frame" x="-2" y="351" width="162" height="31"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="30" id="QaD-VH-OsF"/>
                                                                     </constraints>
@@ -142,7 +142,7 @@
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
                                                                 <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="6" minValue="0.0" maxValue="12" translatesAutoresizingMaskIntoConstraints="NO" id="dpg-Ja-SdE">
-                                                                    <rect key="frame" x="-2" y="562" width="158" height="31"/>
+                                                                    <rect key="frame" x="-2" y="562" width="162" height="31"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="30" id="1W9-ZA-a3q"/>
                                                                     </constraints>
@@ -238,8 +238,8 @@
                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yyp-Kq-Yv4" customClass="StackViewPaper">
-                                                            <rect key="frame" x="30" y="61" width="520" height="251"/>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yyp-Kq-Yv4" customClass="StackViewPaper">
+                                                            <rect key="frame" x="30" y="61" width="520" height="252"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7Q-mH-wSZ" customClass="LabelFieldDisabled">
                                                                     <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
