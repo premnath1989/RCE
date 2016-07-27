@@ -21,6 +21,7 @@
     extern UInt32 const THEME_COLOR_TERTIARY;
     extern UInt32 const THEME_COLOR_QUATERNARY;
     extern UInt32 const THEME_COLOR_QUINARY;
+    extern UInt32 const THEME_COLOR_BackgroundQuestSet;
     extern UInt32 const THEME_COLOR_SENARY;
     extern UInt32 const THEME_COLOR_SEPTENARY;
     extern UInt32 const THEME_COLOR_OCTONARY;

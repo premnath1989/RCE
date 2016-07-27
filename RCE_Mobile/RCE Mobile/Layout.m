@@ -803,14 +803,14 @@
 
         - (void)awakeFromNib { [self setupStyle]; }
 
-
+        // Background of MY information(PREM)
         // FUNCTION
 
         - (void)setupStyle
         {
             UserInterface *objectUserInterface = [[UserInterface alloc] init];
             
-            self.backgroundColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:0.4];
+            self.backgroundColor = [objectUserInterface generateUIColor:0xE4E4E4 floatOpacity:0.4];
         }
 
         @end

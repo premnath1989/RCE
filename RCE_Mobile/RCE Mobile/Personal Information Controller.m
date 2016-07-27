@@ -47,6 +47,15 @@
         _labelEmail.text = NSLocalizedString(@"LABEL_EMAIL", nil); */
         _labelGender.text = NSLocalizedString(@"LABEL_GENDER", nil);
         
+        _labelSection1.textColor = [UIColor blackColor];
+        _labelPoliceNumber.textColor = [UIColor blackColor];
+        _labelMyFullName.textColor = [UIColor blackColor];
+        _labelBirthday.textColor = [UIColor blackColor];
+        _labelMaritalStatus.textColor = [UIColor blackColor];
+        _labelGender.textColor = [UIColor blackColor];
+
+        
+        
         _labelSection2.text = NSLocalizedString(@"SECTION_EMPLOYEERSINFORMATION", nil);
         
         _labelEmployersFullName.text = NSLocalizedString(@"LABEL_EMPLOYERSNAME", nil);
@@ -57,6 +66,8 @@
         _labelState.text = NSLocalizedString(@"LABEL_EMPLOYMENTSTATUS", nil);
         _labelRetirement.text = NSLocalizedString(@"LABEL_RETIREMENT", nil); */
         _labelOfficeNumber.text = NSLocalizedString(@"LABEL_OFFICENUMBER", nil);
+        
+        
         
         [_buttonSubmit1 setTitle:NSLocalizedString(@"BUTTON_NEXT", nil) forState:UIControlStateNormal];
         [_buttonSubmit2 setTitle:NSLocalizedString(@"BUTTON_CONTINUE", nil) forState:UIControlStateNormal];

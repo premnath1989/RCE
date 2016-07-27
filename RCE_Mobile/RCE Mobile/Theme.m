@@ -21,6 +21,7 @@
     UInt32 const THEME_COLOR_TERTIARY = 0xb4b4b4; // Dark Background
     UInt32 const THEME_COLOR_QUATERNARY = 0xf0f0f0; // Light Background
     UInt32 const THEME_COLOR_QUINARY = 0x000000; // Black
+    UInt32 const THEME_COLOR_BackgroundQuestSet  = 0xF76262; // RedColor //@prem
     UInt32 const THEME_COLOR_SENARY = 0x5a5a5a; // Dark Grey
     UInt32 const THEME_COLOR_SEPTENARY = 0x787878; // Light Grey
     UInt32 const THEME_COLOR_OCTONARY = 0x00ff00; // Green
@@ -29,7 +30,9 @@
 
     // FONT
 
-    NSString *const THEME_FONT_PRIMARY = @"HelveticaNeue-Medium"; // Regular
-    NSString *const THEME_FONT_SECONDARY = @"HelveticaNeue-Bold"; // Bold
-    NSString *const THEME_FONT_TERTIARY = @"HelveticaNeue-Light"; // Italic
-    NSString *const THEME_FONT_QUATERNARY = @"HelveticaNeue-Thin"; // Bold Italic
+    NSString *const THEME_FONT_PRIMARY = @"MarkerFelt-Wide"; // Regular
+    NSString *const THEME_FONT_SECONDARY = @"MarkerFelt-Wide"; // Bold
+    NSString *const THEME_FONT_TERTIARY = @"MarkerFelt-Thin"; // Italic
+    NSString *const THEME_FONT_QUATERNARY = @"MarkerFelt-Thin"; // Bold Italic
+
+

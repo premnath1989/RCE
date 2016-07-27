@@ -53,6 +53,8 @@
             self.backgroundColor = [objectUserInterface generateUIColor:THEME_COLOR_PRIMARY floatOpacity:0.1];
             self.borderStyle = UITextBorderStyleLine;
             self.layer.borderWidth = INPUT_BORDER_WIDTH;
+            self.layer.cornerRadius = 10;
+            self.layer.masksToBounds = YES;
             self.layer.borderColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:0.8].CGColor;
         }
 
@@ -90,6 +92,8 @@
             self.backgroundColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:0.1];
             self.borderStyle = UITextBorderStyleLine;
             self.layer.borderWidth = INPUT_BORDER_WIDTH;
+            self.layer.cornerRadius = 10;
+            self.layer.masksToBounds = YES;
             self.layer.borderColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:0.8].CGColor;
             self.textColor = [objectUserInterface generateUIColor:THEME_COLOR_PRIMARY floatOpacity:1.0];
         }
@@ -239,8 +243,10 @@
             self.backgroundColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:0.1];
 
             self.layer.borderWidth = INPUT_BORDER_WIDTH;
+            self.layer.cornerRadius = 10;
+            self.layer.masksToBounds = YES;
             self.layer.borderColor = [objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:0.8].CGColor;
-            self.tintColor = [objectUserInterface generateUIColor:THEME_COLOR_PRIMARY floatOpacity:1.0];
+            self.tintColor = [objectUserInterface generateUIColor:0x3399FF floatOpacity:0.9];
         }
 
     @end

@@ -34,11 +34,16 @@
         // LANGUAGE
         
         _labelSection1.text = NSLocalizedString(@"SECTION_LOANINFORMATION", nil);
+        _labelSection1.textColor = [UIColor blackColor];
         
         _labelAmountPrefix.text = NSLocalizedString(@"LABEL_BORROW_PREFIX", nil);
+         _labelAmountPrefix.textColor = [UIColor blackColor];
         _labelAmountSuffix.text = NSLocalizedString(@"CURRENCY_RM", nil);
+         _labelAmountSuffix.textColor = [UIColor blackColor];
         _labelDurationPrefix.text = NSLocalizedString(@"LABEL_FOR", nil);
+        _labelDurationPrefix.textColor = [UIColor blackColor];
         _labelDurationSuffix.text = NSLocalizedString(@"TIME_MONTHS", nil);
+        _labelDurationSuffix.textColor = [UIColor blackColor];
         
         _labelSection2.text = NSLocalizedString(@"SECTION_LOANBACKGROUND", nil);
         
@@ -58,10 +63,14 @@
         _sliderAmount.maximumValue = 6000;
         _sliderAmount.minimumValue = 1000;
         
+        _sliderAmount.tintColor =[UIColor blackColor];
+        
         _sliderDuration.continuous = YES;
         [_sliderDuration addTarget:self action:@selector(sliderDuration:) forControlEvents:UIControlEventValueChanged];
         _sliderDuration.maximumValue = 12;
         _sliderDuration.minimumValue = 1;
+        
+        _sliderDuration.tintColor =[UIColor blackColor];
     }
 
 
