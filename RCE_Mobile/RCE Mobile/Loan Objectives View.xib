@@ -95,7 +95,7 @@
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
                                                                 <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1000" minValue="0.0" maxValue="6000" translatesAutoresizingMaskIntoConstraints="NO" id="IbL-aU-b6Z" customClass="SliderPrimary">
-                                                                    <rect key="frame" x="-2" y="351" width="222" height="31"/>
+                                                                    <rect key="frame" x="-2" y="351" width="226" height="31"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="30" id="QaD-VH-OsF"/>
                                                                     </constraints>
@@ -142,7 +142,7 @@
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
                                                                 <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="12" translatesAutoresizingMaskIntoConstraints="NO" id="dpg-Ja-SdE" customClass="SliderPrimary">
-                                                                    <rect key="frame" x="-2" y="562" width="222" height="31"/>
+                                                                    <rect key="frame" x="-2" y="562" width="226" height="31"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="30" id="1W9-ZA-a3q"/>
                                                                     </constraints>

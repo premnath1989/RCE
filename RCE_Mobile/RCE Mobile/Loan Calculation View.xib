@@ -107,8 +107,8 @@
                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
-                                                                <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="m3E-TF-WH5" customClass="SliderPrimary">
-                                                                    <rect key="frame" x="-2" y="91" width="234" height="31"/>
+                                                                <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1000" minValue="1000" maxValue="6000" translatesAutoresizingMaskIntoConstraints="NO" id="m3E-TF-WH5" customClass="SliderPrimary">
+                                                                    <rect key="frame" x="-2" y="91" width="262" height="31"/>
                                                                     <connections>
                                                                         <action selector="sliderIncome:" destination="-1" eventType="valueChanged" id="550-4g-wnz"/>
                                                                     </connections>
@@ -220,8 +220,8 @@
                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
-                                                                <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Vht-0h-Fsz" customClass="SliderPrimary">
-                                                                    <rect key="frame" x="-2" y="91" width="214" height="31"/>
+                                                                <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1000" minValue="1000" maxValue="6000" translatesAutoresizingMaskIntoConstraints="NO" id="Vht-0h-Fsz" customClass="SliderPrimary">
+                                                                    <rect key="frame" x="-2" y="91" width="242" height="31"/>
                                                                     <connections>
                                                                         <action selector="sliderExpenditure:" destination="-1" eventType="valueChanged" id="bcm-LA-WUB"/>
                                                                     </connections>
