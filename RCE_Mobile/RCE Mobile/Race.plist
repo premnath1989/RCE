@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Race</key>
+	<array>
+		<string>- SELECT -</string>
+		<string>ACCOUNT EXECUTIVE</string>
+		<string>ACID CLEANER</string>
+		<string>ACROBAT</string>
+		<string>ACUPUNCTURIST</string>
+		<string>AIRCRAFT TEST PILOT</string>
+		<string>AIRLINE TEST PILOT</string>
+		<string>ARTISAN</string>
+		<string>ASPHALT MIXER</string>
+		<string>ASPHALT WORKER</string>
+		<string>BISCUIT BAKER</string>
+		<string>BLIND MAKER</string>
+		<string>BLOCK PRINTER</string>
+		<string>BOOK KEEPER</string>
+		<string>BOOKING CLERK</string>
+	</array>
+</dict>
+</plist>

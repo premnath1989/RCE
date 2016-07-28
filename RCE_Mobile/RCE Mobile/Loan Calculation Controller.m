@@ -32,6 +32,11 @@
         
         // LANGUAGE
         
+        NSString *savedValue = [[NSUserDefaults standardUserDefaults]
+                                stringForKey:@"TotalAmount"];
+        
+        _textFieldIncome.text =savedValue;
+        
         _labelSection1.text = NSLocalizedString(@"SECTION_INCOME", nil);
         
         _labelIncomePrefix.text = NSLocalizedString(@"LABEL_BORROW_PREFIX", nil);
@@ -47,20 +52,42 @@
         _labelOverlapingSuffix.text = NSLocalizedString(@"CURRENCY_RM", nil);
         
         _labelSection3.text = NSLocalizedString(@"SECTION_LOANPREVIEW", nil);
+        _labelSection3.textColor = [UIColor blackColor];
         
         _labelCongratulations.text = NSLocalizedString(@"LABEL_CONGRATULATIONS", nil);
-        _labelCircleLoanAmount.text = @"9000";
+        _labelCongratulations.textColor = [UIColor blackColor];
+        _labelCircleLoanAmount.text = _textFieldIncome.text;
         _labelCircleLoanCurrency.text = NSLocalizedString(@"CURRENCY_RM", nil);
         _labelLoanAmountTitle.text = NSLocalizedString(@"LABEL_LOANAMOUNT_TITLE", nil);
+        _labelLoanAmountTitle.textColor = [UIColor blackColor];
         _labelCircleInterestRate.text = @"15%";
+        
+        NSString *string = _textFieldIncome.text;
+        int valueTxtfieldIncome = [string intValue];
+        
+        int TotalSum = valueTxtfieldIncome * 0.15;
+        
+        
+        int Subtotal = TotalSum + valueTxtfieldIncome;
+        
+        NSString *strFromInt = [NSString stringWithFormat:@"%i",Subtotal];
+
+        
+        
         _labelCirclePercent.text = @"%";
         _labelLoanAmountDescription.text = NSLocalizedString(@"LABEL_LOANAMOUNT_DESCRIPTION", nil);
+        _labelLoanAmountDescription.textColor = [UIColor blackColor];
         _labelInterestRateTitle.text = NSLocalizedString(@"LABEL_INTERESTRATE_TITLE", nil);
+        _labelInterestRateTitle.textColor = [UIColor blackColor];
         _labelInterestRateDescription.text = NSLocalizedString(@"LABEL_INTERESTRATE_DESCRIPTION", nil);
-        _labelCircleRepaymentAmount.text = @"9180";
+        _labelInterestRateDescription.textColor = [UIColor blackColor];
+        _labelCircleRepaymentAmount.text = strFromInt;
         _labelCircleRepaymentCurrency.text = NSLocalizedString(@"CURRENCY_RM", nil);
+        _labelCircleRepaymentCurrency.textColor = [UIColor blackColor];
         _labelRepaymentTitle.text = NSLocalizedString(@"LABEL_REPAYMENT_TITLE", nil);
+        _labelRepaymentTitle.textColor = [UIColor blackColor];
         _labelRepaymentDescription.text = NSLocalizedString(@"LABEL_REPAYMENT_DESCRIPTION", nil);
+        _labelRepaymentDescription.textColor = [UIColor blackColor];
         
         [_buttonSubmit1 setTitle:NSLocalizedString(@"BUTTON_NEXT", nil) forState:UIControlStateNormal];
         [_buttonSubmit2 setTitle:NSLocalizedString(@"BUTTON_NEXT", nil) forState:UIControlStateNormal];

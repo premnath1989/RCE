@@ -10,11 +10,19 @@
 // IMPORT
 
 #import <UIKit/UIKit.h>
+#import "Race.h"
 
 
 // INTERFACE
 
-@interface PersonalInformationController : UIViewController
+@interface PersonalInformationController : UIViewController<RaceDelegate>
+{
+    Race *_raceList;
+    UIPopoverController *_RaceListPopover;
+}
+
+    @property (nonatomic, strong) Race *raceList;
+    @property (nonatomic, strong) UIPopoverController *raceListPopover;
 
     // VIEW
 

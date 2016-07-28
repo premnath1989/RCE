@@ -39,6 +39,9 @@
 		0F102ED21D3CEC680001AEC6 /* Navigation View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F102ECE1D3CEC680001AEC6 /* Navigation View.xib */; };
 		0F102ED31D3CEC680001AEC6 /* Personal Information View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F102ECF1D3CEC680001AEC6 /* Personal Information View.xib */; };
 		0F309DBE1D3F2DEA00C151C4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F309DC01D3F2DEA00C151C4 /* Localizable.strings */; };
+		1711AA791D49941800882A81 /* Race.m in Sources */ = {isa = PBXBuildFile; fileRef = 1711AA781D49941800882A81 /* Race.m */; };
+		1711AA7B1D4994C400882A81 /* Race.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1711AA7A1D4994C400882A81 /* Race.plist */; };
+		1711AA7E1D4997A700882A81 /* RacePopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1711AA7D1D4997A700882A81 /* RacePopoverViewController.m */; };
 		9B28EFEB1D47F0820090D222 /* HelveticaNeue_35_Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B28EFE81D47F0820090D222 /* HelveticaNeue_35_Thin.ttf */; };
 		9B28EFEC1D47F0820090D222 /* HelveticaNeue_45_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B28EFE91D47F0820090D222 /* HelveticaNeue_45_Light.ttf */; };
 		9B28EFED1D47F0820090D222 /* HelveticaNeue_55_Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B28EFEA1D47F0820090D222 /* HelveticaNeue_55_Roman.ttf */; };
@@ -123,6 +126,11 @@
 		0F309DBD1D3F2DDE00C151C4 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/Main.strings; sourceTree = "<group>"; };
 		0F309DBF1D3F2DEA00C151C4 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0F309DC21D3F2DFC00C151C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1711AA771D49941800882A81 /* Race.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Race.h; sourceTree = "<group>"; };
+		1711AA781D49941800882A81 /* Race.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Race.m; sourceTree = "<group>"; };
+		1711AA7A1D4994C400882A81 /* Race.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Race.plist; sourceTree = "<group>"; };
+		1711AA7C1D4997A700882A81 /* RacePopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RacePopoverViewController.h; sourceTree = "<group>"; };
+		1711AA7D1D4997A700882A81 /* RacePopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RacePopoverViewController.m; sourceTree = "<group>"; };
 		9B28EFE81D47F0820090D222 /* HelveticaNeue_35_Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue_35_Thin.ttf; sourceTree = "<group>"; };
 		9B28EFE91D47F0820090D222 /* HelveticaNeue_45_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue_45_Light.ttf; sourceTree = "<group>"; };
 		9B28EFEA1D47F0820090D222 /* HelveticaNeue_55_Roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue_55_Roman.ttf; sourceTree = "<group>"; };
@@ -307,6 +315,11 @@
 				0F102E9E1D3CEA840001AEC6 /* Main Financing Controller.m */,
 				0F102EA11D3CEA840001AEC6 /* Personal Information Controller.h */,
 				0F102EA21D3CEA840001AEC6 /* Personal Information Controller.m */,
+				1711AA771D49941800882A81 /* Race.h */,
+				1711AA781D49941800882A81 /* Race.m */,
+				1711AA7C1D4997A700882A81 /* RacePopoverViewController.h */,
+				1711AA7D1D4997A700882A81 /* RacePopoverViewController.m */,
+				1711AA7A1D4994C400882A81 /* Race.plist */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -426,7 +439,7 @@
 				TargetAttributes = {
 					0F102E071D3C81860001AEC6 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = Q4NY74HXM4;
+						DevelopmentTeam = 2YT8E2D9X6;
 					};
 					0F102E231D3C81860001AEC6 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -466,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F102EAC1D3CEAF70001AEC6 /* Loan Objectives View.xib in Resources */,
+				1711AA7B1D4994C400882A81 /* Race.plist in Resources */,
 				0F102E1E1D3C81860001AEC6 /* LaunchScreen.storyboard in Resources */,
 				0F102ED11D3CEC680001AEC6 /* Loan Calculation View.xib in Resources */,
 				0F102ED31D3CEC680001AEC6 /* Personal Information View.xib in Resources */,
@@ -515,10 +529,12 @@
 				0F102E851D3C86060001AEC6 /* String.m in Sources */,
 				0F102E581D3C85030001AEC6 /* Label.m in Sources */,
 				0F102E561D3C85030001AEC6 /* Button.m in Sources */,
+				1711AA791D49941800882A81 /* Race.m in Sources */,
 				0F102EA61D3CEA840001AEC6 /* Navigation Controller.m in Sources */,
 				9B28F0011D47F44F0090D222 /* DatePickerDialog.swift in Sources */,
 				0F102E861D3C86060001AEC6 /* Theme.m in Sources */,
 				0F102EA71D3CEA840001AEC6 /* Personal Information Controller.m in Sources */,
+				1711AA7E1D4997A700882A81 /* RacePopoverViewController.m in Sources */,
 				0F102E101D3C81860001AEC6 /* AppDelegate.m in Sources */,
 				0F102E821D3C86060001AEC6 /* Dimension.m in Sources */,
 				0F102E0D1D3C81860001AEC6 /* main.m in Sources */,

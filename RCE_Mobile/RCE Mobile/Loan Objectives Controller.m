@@ -83,6 +83,13 @@
         [_sliderAmount setValue:((int)((_sliderAmount.value + 500) / 1000) * 1000) animated:NO];
         _textFieldAmount.text = [NSString stringWithFormat:@"%.f", _sliderAmount.value];
         _textFieldAmount.layer.borderColor = [[userInterface generateUIColor:0x3399FF floatOpacity:1.0] CGColor];
+        
+        NSLog(@"Amount %@",_textFieldAmount.text);
+        
+        
+        [[NSUserDefaults standardUserDefaults] setObject:_textFieldAmount.text forKey:@"TotalAmount"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
     }
 
     - (IBAction)sliderDuration:(id)sender

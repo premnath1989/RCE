@@ -25,6 +25,7 @@
 // IMPLEMENTATION
 
 @implementation PersonalInformationController
+@synthesize raceListPopover = _raceListPopover;
 
     // VIEW DID LOAD
 
@@ -54,6 +55,7 @@
         _labelBirthday.textColor = [UIColor blackColor];
         _labelMaritalStatus.textColor = [UIColor blackColor];
         _labelGender.textColor = [UIColor blackColor];
+        _labelOccupation.textColor = [UIColor blackColor];
         
         
         _labelSection2.text = NSLocalizedString(@"SECTION_EMPLOYEERSINFORMATION", nil);
@@ -108,8 +110,43 @@
 
     - (IBAction) dropDownOccupation:(id)sender
     {
-        [self.textFieldOccupation resignFirstResponder];
+        [self resignFirstResponder];
+        [self.view endEditing:YES];
+        
+        NSUserDefaults *ClientProfile = [NSUserDefaults standardUserDefaults];
+        [ClientProfile setObject:@"YES" forKey:@"isNew"];
+        
+        Class UIKeyboardImpl = NSClassFromString(@"UIKeyboardImpl");
+        id activeInstance = [UIKeyboardImpl performSelector:@selector(activeInstance)];
+        [activeInstance performSelector:@selector(dismissKeyboard)];
+        
+        if (_raceList == nil) {
+            self.raceList = [[Race alloc] initWithStyle:UITableViewStylePlain];
+            _raceList.delegate = self;
+            self.raceListPopover = [[UIPopoverController alloc] initWithContentViewController:_raceList];
+        }
+        
+        [self.raceListPopover presentPopoverFromRect:[sender bounds]  inView:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+        
+        
+       // [self.textFieldOccupation resignFirstResponder];
     }
+
+-(void)selectedRace:(NSString *)theRace
+{
+    
+    //prem
+    _textFieldOccupation.text = theRace;
+//    if([theRace isEqualToString:@"- SELECT -"]) {
+//        outletRace.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
+//    } else {
+//        outletRace.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+//    }
+  //  [outletRace setTitle:[[NSString stringWithFormat:@" "] stringByAppendingFormat:@"%@",theRace]forState:UIControlStateNormal];
+    [self.raceListPopover dismissPopoverAnimated:YES];
+    
+}
+
 
 
     // DID RECEIVE MEMORY WARNING
