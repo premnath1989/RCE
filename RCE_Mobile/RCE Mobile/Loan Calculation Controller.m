@@ -105,21 +105,19 @@
     - (IBAction)sliderIncome:(id)sender
     {
         UserInterface *userInterface = [[UserInterface alloc] init];
+        [_sliderIncome setMinimumValue:1000];
+        [_sliderIncome setMaximumValue:6000];
         [_sliderIncome setValue:((int)((_sliderIncome.value + 500) / 1000) * 1000) animated:NO];
         _textFieldIncome.text = [NSString stringWithFormat:@"%.f", _sliderIncome.value];
         _textFieldIncome.layer.borderColor = [[userInterface generateUIColor:0x3399FF floatOpacity:1.0] CGColor];
-        
-        NSLog(@"Amount %@",_textFieldIncome.text);
-        
-        
-        [[NSUserDefaults standardUserDefaults] setObject:_textFieldIncome.text forKey:@"TotalAmount"];
-        [[NSUserDefaults standardUserDefaults] synchronize];
         
     }
 
     - (IBAction)sliderExpenditure:(id)sender
     {
         UserInterface *userInterface = [[UserInterface alloc] init];
+        [_sliderExpenditure setMinimumValue:1000];
+        [_sliderExpenditure setMaximumValue:6000];
         [_sliderExpenditure setValue:((int)((_sliderExpenditure.value + 500) / 1000) * 1000) animated:NO];
         _textFieldExpenditure.text = [NSString stringWithFormat:@"%.f", _sliderExpenditure.value];
         _textFieldExpenditure.layer.borderColor = [[userInterface generateUIColor:0x3399FF floatOpacity:1.0] CGColor];
