@@ -36,7 +36,7 @@
         NSString *savedValue = [[NSUserDefaults standardUserDefaults]
                                 stringForKey:@"TotalAmount"];
         
-        _textFieldIncome.text =savedValue;
+        //_textFieldIncome.text =savedValue;
         
         _labelSection1.text = NSLocalizedString(@"SECTION_INCOME", nil);
         
