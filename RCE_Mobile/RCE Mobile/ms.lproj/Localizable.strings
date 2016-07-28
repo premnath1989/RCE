@@ -58,11 +58,11 @@ SECTION_LOANPREVIEW = "Loan Preview";
 // LABEL
 
 LABEL_FOR = "for ";
-LABEL_BORROW_PREFIX = "I need to borrow";
+LABEL_BORROW_PREFIX = "My monthly Income";
 LABEL_LOANREASON = "I need this loan to help me";
 LABEL_INCOME_PREFIX = "I earn ";
 LABEL_FIXEDALLOWANCE_PREFIX = "with total fixed allowance as ";
-LABEL_DEDUCTION_PREFIX = "I spend";
+LABEL_DEDUCTION_PREFIX = "My monthly Expanses";
 LABEL_DEDUCTION_SUFFIX = "for monthly deduction";
 LABEL_OVERLAPING_PREFIX = "with total overlaping";
 LABEL_CONGRATULATIONS = "Congratulations !, this is how your loan gonna be ...";

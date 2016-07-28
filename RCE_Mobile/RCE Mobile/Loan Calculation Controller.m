@@ -33,8 +33,7 @@
         
         // LANGUAGE
         
-        NSString *savedValue = [[NSUserDefaults standardUserDefaults]
-                                stringForKey:@"TotalAmount"];
+        
         
         //_textFieldIncome.text =savedValue;
         
@@ -57,13 +56,18 @@
         
         _labelCongratulations.text = NSLocalizedString(@"LABEL_CONGRATULATIONS", nil);
         _labelCongratulations.textColor = [UIColor blackColor];
-        _labelCircleLoanAmount.text = _textFieldIncome.text;
+        
+        NSString *savedValue = [[NSUserDefaults standardUserDefaults]
+                                stringForKey:@"TotalAmount"];
+        
+        
+        _labelCircleLoanAmount.text = savedValue;
         _labelCircleLoanCurrency.text = NSLocalizedString(@"CURRENCY_RM", nil);
         _labelLoanAmountTitle.text = NSLocalizedString(@"LABEL_LOANAMOUNT_TITLE", nil);
         _labelLoanAmountTitle.textColor = [UIColor blackColor];
         _labelCircleInterestRate.text = @"15%";
         
-        NSString *string = _textFieldIncome.text;
+        NSString *string = savedValue;
         int valueTxtfieldIncome = [string intValue];
         
         int TotalSum = valueTxtfieldIncome * 0.15;
