@@ -310,3 +310,28 @@
         }
 
     @end
+
+
+    // SLIDER
+
+    @implementation SliderPrimary
+
+        // INITIALIZE
+
+        - (void)awakeFromNib{ [self setupStyle]; }
+
+
+        // FUNCTION
+
+        - (void)setupStyle
+        {
+            UserInterface* objectUserInterface = [[UserInterface alloc] init];
+            
+            [self.heightAnchor constraintEqualToConstant:TEXTFIELD_HEIGHT_SINGLE].active = true;
+            
+            [self setMinimumTrackTintColor:[objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:1.0]];
+            [self setMaximumTrackTintColor:[objectUserInterface generateUIColor:THEME_COLOR_QUINARY floatOpacity:1.0]];
+            [self setThumbTintColor:[objectUserInterface generateUIColor:0x3399FF floatOpacity:1.0]];
+        }
+
+    @end

@@ -94,3 +94,14 @@
         - (void)setupStyle;
 
     @end
+
+
+    // SLIDER
+
+    @interface SliderPrimary : UISlider
+
+        // FUNCTION
+
+        - (void)setupStyle;
+
+    @end

@@ -10,6 +10,7 @@
 // IMPORT
 
 #import "Loan Calculation Controller.h"
+#import "User Interface.h"
 
 
 // INTERFACE
@@ -40,16 +41,16 @@
         _labelSection1.text = NSLocalizedString(@"SECTION_INCOME", nil);
         
         _labelIncomePrefix.text = NSLocalizedString(@"LABEL_BORROW_PREFIX", nil);
-        _labelIncomeSuffix.text = [NSString stringWithFormat:@"%@%@", NSLocalizedString(@"CURRENCY_RM", nil), NSLocalizedString(@"FREQUENCY_MONTH", nil)];
+        /* _labelIncomeSuffix.text = [NSString stringWithFormat:@"%@%@", NSLocalizedString(@"CURRENCY_RM", nil), NSLocalizedString(@"FREQUENCY_MONTH", nil)];
         _labelFixedAllowancePrefix.text = NSLocalizedString(@"LABEL_FIXEDALLOWANCE_PREFIX", nil);
-        _labelFixedAllowanceSuffix.text = NSLocalizedString(@"CURRENCY_RM", nil);
+        _labelFixedAllowanceSuffix.text = NSLocalizedString(@"CURRENCY_RM", nil); */
         
         _labelSection2.text = NSLocalizedString(@"SECTION_EXPENDITURE", nil);
         
         _labelDeductionPrefix.text = NSLocalizedString(@"LABEL_DEDUCTION_PREFIX", nil);
-        _labelDeductionSuffix.text = [NSString stringWithFormat:@"%@%@", NSLocalizedString(@"CURRENCY_RM", nil), NSLocalizedString(@"LABEL_DEDUCTION_SUFFIX", nil)];
+        /* _labelDeductionSuffix.text = [NSString stringWithFormat:@"%@%@", NSLocalizedString(@"CURRENCY_RM", nil), NSLocalizedString(@"LABEL_DEDUCTION_SUFFIX", nil)];
         _labelOverlapingPrefix.text = NSLocalizedString(@"LABEL_OVERLAPING_PREFIX", nil);
-        _labelOverlapingSuffix.text = NSLocalizedString(@"CURRENCY_RM", nil);
+        _labelOverlapingSuffix.text = NSLocalizedString(@"CURRENCY_RM", nil); */
         
         _labelSection3.text = NSLocalizedString(@"SECTION_LOANPREVIEW", nil);
         _labelSection3.textColor = [UIColor blackColor];
@@ -96,6 +97,32 @@
         [_buttonGuideDetail1 setTitle:NSLocalizedString(@"GUIDE_STEP_1", nil) forState:UIControlStateNormal];
         [_buttonGuideDetail2 setTitle:NSLocalizedString(@"GUIDE_STEP_2", nil) forState:UIControlStateNormal];
         [_buttonGuideDetail3 setTitle:NSLocalizedString(@"GUIDE_STEP_3", nil) forState:UIControlStateNormal];
+    }
+
+
+    // IBACTION
+
+    - (IBAction)sliderIncome:(UISlider*)sender
+    {
+        UserInterface *userInterface = [[UserInterface alloc] init];
+        [sender setValue:((int)((sender.value + 500) / 1000) * 1000) animated:NO];
+        _textFieldIncome.text = [NSString stringWithFormat:@"%.f", sender.value];
+        _textFieldIncome.layer.borderColor = [[userInterface generateUIColor:0x3399FF floatOpacity:1.0] CGColor];
+        
+        NSLog(@"Amount %@",_textFieldIncome.text);
+        
+        
+        [[NSUserDefaults standardUserDefaults] setObject:_textFieldIncome.text forKey:@"TotalAmount"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+    }
+
+    - (IBAction)sliderExpenditure:(UISlider*)sender
+    {
+        UserInterface *userInterface = [[UserInterface alloc] init];
+        [sender setValue:((int)((sender.value + 500) / 1000) * 1000) animated:NO];
+        _textFieldExpenditure.text = [NSString stringWithFormat:@"%.f", sender.value];
+        _textFieldExpenditure.layer.borderColor = [[userInterface generateUIColor:0x3399FF floatOpacity:1.0] CGColor];
     }
 
 

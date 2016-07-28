@@ -41,14 +41,14 @@
     @property (nonatomic, weak) IBOutlet UILabel *labelSection3;
 
     @property (nonatomic, weak) IBOutlet UILabel *labelIncomePrefix;
-    @property (nonatomic, weak) IBOutlet UILabel *labelIncomeSuffix;
+    /* @property (nonatomic, weak) IBOutlet UILabel *labelIncomeSuffix;
     @property (nonatomic, weak) IBOutlet UILabel *labelFixedAllowancePrefix;
-    @property (nonatomic, weak) IBOutlet UILabel *labelFixedAllowanceSuffix;
+    @property (nonatomic, weak) IBOutlet UILabel *labelFixedAllowanceSuffix; */
 
     @property (nonatomic, weak) IBOutlet UILabel *labelDeductionPrefix;
-    @property (nonatomic, weak) IBOutlet UILabel *labelDeductionSuffix;
+    /* @property (nonatomic, weak) IBOutlet UILabel *labelDeductionSuffix;
     @property (nonatomic, weak) IBOutlet UILabel *labelOverlapingPrefix;
-    @property (nonatomic, weak) IBOutlet UILabel *labelOverlapingSuffix;
+    @property (nonatomic, weak) IBOutlet UILabel *labelOverlapingSuffix; */
 
     @property (nonatomic, weak) IBOutlet UILabel *labelCongratulations;
 
@@ -74,6 +74,12 @@
     @property (nonatomic, weak) IBOutlet UITextField *textFieldFixedAllowance;
     @property (nonatomic, weak) IBOutlet UITextField *textFieldExpenditure;
     @property (nonatomic, weak) IBOutlet UITextField *textFieldOverlaping;
+
+
+    // SLIDER
+
+    @property (nonatomic, weak) IBOutlet UISlider *slideIncome;
+    @property (nonatomic, weak) IBOutlet UISlider *slideExpenditure;
 
 
     // BUTTON
