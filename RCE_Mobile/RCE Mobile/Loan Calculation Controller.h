@@ -78,8 +78,8 @@
 
     // SLIDER
 
-    @property (nonatomic, weak) IBOutlet UISlider *slideIncome;
-    @property (nonatomic, weak) IBOutlet UISlider *slideExpenditure;
+    @property (nonatomic, weak) IBOutlet UISlider *sliderIncome;
+    @property (nonatomic, weak) IBOutlet UISlider *sliderExpenditure;
 
 
     // BUTTON

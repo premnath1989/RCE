@@ -32,8 +32,8 @@
                 <outlet property="labelSection1" destination="sTy-fg-ltY" id="ild-bA-mqx"/>
                 <outlet property="labelSection2" destination="cMW-ba-9WZ" id="fu8-My-dgq"/>
                 <outlet property="labelSection3" destination="njV-hE-PCp" id="L1I-tu-jL1"/>
-                <outlet property="slideExpenditure" destination="Vht-0h-Fsz" id="E0W-qa-abq"/>
-                <outlet property="slideIncome" destination="m3E-TF-WH5" id="XZk-Le-Tz3"/>
+                <outlet property="sliderExpenditure" destination="Vht-0h-Fsz" id="0Fa-91-S5k"/>
+                <outlet property="sliderIncome" destination="m3E-TF-WH5" id="m1i-nq-mEs"/>
                 <outlet property="textFieldExpenditure" destination="q5e-q8-LZw" id="cpe-75-py9"/>
                 <outlet property="textFieldIncome" destination="mKB-U8-kys" id="XIF-zB-Ghs"/>
                 <outlet property="view" destination="iN0-l3-epB" id="MFL-DT-wPw"/>
@@ -108,7 +108,7 @@
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
                                                                 <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="m3E-TF-WH5" customClass="SliderPrimary">
-                                                                    <rect key="frame" x="-2" y="91" width="230" height="31"/>
+                                                                    <rect key="frame" x="-2" y="91" width="234" height="31"/>
                                                                     <connections>
                                                                         <action selector="sliderIncome:" destination="-1" eventType="valueChanged" id="550-4g-wnz"/>
                                                                     </connections>
@@ -221,7 +221,7 @@
                                                                     <textInputTraits key="textInputTraits"/>
                                                                 </textField>
                                                                 <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Vht-0h-Fsz" customClass="SliderPrimary">
-                                                                    <rect key="frame" x="-2" y="91" width="210" height="31"/>
+                                                                    <rect key="frame" x="-2" y="91" width="214" height="31"/>
                                                                     <connections>
                                                                         <action selector="sliderExpenditure:" destination="-1" eventType="valueChanged" id="bcm-LA-WUB"/>
                                                                     </connections>

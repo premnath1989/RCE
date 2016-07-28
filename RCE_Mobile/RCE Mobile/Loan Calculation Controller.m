@@ -102,11 +102,11 @@
 
     // IBACTION
 
-    - (IBAction)sliderIncome:(UISlider*)sender
+    - (IBAction)sliderIncome:(id)sender
     {
         UserInterface *userInterface = [[UserInterface alloc] init];
-        [sender setValue:((int)((sender.value + 500) / 1000) * 1000) animated:NO];
-        _textFieldIncome.text = [NSString stringWithFormat:@"%.f", sender.value];
+        [_sliderIncome setValue:((int)((_sliderIncome.value + 500) / 1000) * 1000) animated:NO];
+        _textFieldIncome.text = [NSString stringWithFormat:@"%.f", _sliderIncome.value];
         _textFieldIncome.layer.borderColor = [[userInterface generateUIColor:0x3399FF floatOpacity:1.0] CGColor];
         
         NSLog(@"Amount %@",_textFieldIncome.text);
@@ -117,11 +117,11 @@
         
     }
 
-    - (IBAction)sliderExpenditure:(UISlider*)sender
+    - (IBAction)sliderExpenditure:(id)sender
     {
         UserInterface *userInterface = [[UserInterface alloc] init];
-        [sender setValue:((int)((sender.value + 500) / 1000) * 1000) animated:NO];
-        _textFieldExpenditure.text = [NSString stringWithFormat:@"%.f", sender.value];
+        [_sliderExpenditure setValue:((int)((_sliderExpenditure.value + 500) / 1000) * 1000) animated:NO];
+        _textFieldExpenditure.text = [NSString stringWithFormat:@"%.f", _sliderExpenditure.value];
         _textFieldExpenditure.layer.borderColor = [[userInterface generateUIColor:0x3399FF floatOpacity:1.0] CGColor];
     }
 
